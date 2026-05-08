@@ -1,0 +1,53 @@
+{
+  "knowledge_base": "prostate-cancer-kb",
+  "version": "1.0.0",
+  "build_time": "2026-05-08T11:09:23.541300",
+  "total_triplets": 53,
+  "total_domains": 17,
+  "domains": [
+    "免疫治疗",
+    "内分泌治疗",
+    "分期系统",
+    "前列腺癌CSCO 2024指南推荐",
+    "前列腺癌治疗方案",
+    "前列腺癌流行病学",
+    "前列腺癌生物标志物与分期评估",
+    "化学治疗",
+    "危险分层",
+    "手术治疗",
+    "放射治疗",
+    "治疗指南",
+    "流行病学",
+    "病理评估",
+    "筛查诊断",
+    "药物治疗",
+    "靶向治疗"
+  ],
+  "domain_statistics": {
+    "病理评估": 3,
+    "筛查诊断": 6,
+    "分期系统": 1,
+    "危险分层": 3,
+    "治疗指南": 10,
+    "药物治疗": 5,
+    "流行病学": 12,
+    "手术治疗": 3,
+    "放射治疗": 2,
+    "内分泌治疗": 4,
+    "化学治疗": 2,
+    "免疫治疗": 1,
+    "靶向治疗": 1
+  },
+  "source_files": [
+    "biomarkers.json",
+    "csco_2024.json",
+    "epidemiology.json",
+    "treatment.json"
+  ],
+  "files_triplet_count": {
+    "biomarkers.json": 13,
+    "csco_2024.json": 14,
+    "epidemiology.json": 12,
+    "treatment.json": 14
+  }
+}

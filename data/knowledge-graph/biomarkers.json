@@ -1,0 +1,124 @@
+{
+  "domain": "前列腺癌生物标志物与分期评估",
+  "version": "1.0.0",
+  "description": "前列腺癌生物标志物、分期评估知识三元组",
+  "triplets": [
+    {
+      "head": "Gleason评分",
+      "relation": "定义",
+      "tail": "前列腺腺体分化程度的病理评分系统",
+      "source": "ISUP 2014共识 / Gleason分级系统",
+      "evidence": "Gleason评分基于前列腺腺体结构模式，评分范围6-10分，是最重要的预后因素之一",
+      "domain": "病理评估",
+      "confidence": 0.98
+    },
+    {
+      "head": "Gleason评分",
+      "relation": "评分范围",
+      "tail": "6-10分",
+      "source": "ISUP 2014共识",
+      "evidence": "2014年ISUP共识将最低评分调整为6分（3+3），取消2-5分的低级别分类",
+      "domain": "病理评估",
+      "confidence": 0.99
+    },
+    {
+      "head": "ISUP分级系统",
+      "relation": "分级标准",
+      "tail": "基于Gleason评分的5级分组",
+      "source": "ISUP 2014共识",
+      "evidence": "ISUP 1级(Gleason≤6)、2级(3+4=7)、3级(4+3=7)、4级(8)、5级(9-10)",
+      "domain": "病理评估",
+      "confidence": 0.99
+    },
+    {
+      "head": "PSA",
+      "relation": "筛查阈值",
+      "tail": "4 ng/mL",
+      "source": "中国前列腺癌筛查指南",
+      "evidence": "PSA>4 ng/mL为异常，建议进一步检查；>10 ng/mL前列腺癌概率显著升高",
+      "domain": "筛查诊断",
+      "confidence": 0.90
+    },
+    {
+      "head": "PSA",
+      "relation": "全称",
+      "tail": "前列腺特异性抗原",
+      "source": "临床检验标准",
+      "evidence": "PSA是由前列腺上皮细胞分泌的丝氨酸蛋白酶，正常情况下主要存在于精液中",
+      "domain": "筛查诊断",
+      "confidence": 0.99
+    },
+    {
+      "head": "PSAD",
+      "relation": "全称",
+      "tail": "PSA密度",
+      "source": "临床实践",
+      "evidence": "PSAD = 血清PSA/前列腺体积(ml)，正常值<0.15 ng/mL/ml，有助于鉴别BPH与前列腺癌",
+      "domain": "筛查诊断",
+      "confidence": 0.95
+    },
+    {
+      "head": "free PSA比值",
+      "relation": "临床意义",
+      "tail": "PSA灰区鉴别指标",
+      "source": "中国前列腺癌诊疗指南",
+      "evidence": "当PSA在4-10 ng/mL灰区时，free PSA/total PSA<0.16提示前列腺癌可能性大",
+      "domain": "筛查诊断",
+      "confidence": 0.92
+    },
+    {
+      "head": "前列腺癌TNM分期",
+      "relation": "T分期标准",
+      "tail": "T1-T4基于肿瘤侵犯范围",
+      "source": "AJCC第8版",
+      "evidence": "T1:临床未触及；T2:局限于前列腺内；T3:突破前列腺包膜；T4:侵犯邻近结构",
+      "domain": "分期系统",
+      "confidence": 0.98
+    },
+    {
+      "head": "前列腺癌",
+      "relation": "危险分层-低危",
+      "tail": "T1-T2a, Gleason≤6, PSA<10",
+      "source": "NCCN/CSCO指南",
+      "evidence": "低危前列腺癌：临床分期T1-T2a，Gleason评分≤6分，PSA<10 ng/mL",
+      "domain": "危险分层",
+      "confidence": 0.98
+    },
+    {
+      "head": "前列腺癌",
+      "relation": "危险分层-中危",
+      "tail": "T2b-T2c或Gleason 7或PSA 10-20",
+      "source": "NCCN/CSCO指南",
+      "evidence": "中危：T2b-T2c或Gleason 7(3+4或4+3)或PSA 10-20 ng/mL",
+      "domain": "危险分层",
+      "confidence": 0.98
+    },
+    {
+      "head": "前列腺癌",
+      "relation": "危险分层-高危",
+      "tail": "T3a或Gleason≥8或PSA>20",
+      "source": "NCCN/CSCO指南",
+      "evidence": "高危：T3a及以上或Gleason评分≥8分或PSA>20 ng/mL",
+      "domain": "危险分层",
+      "confidence": 0.98
+    },
+    {
+      "head": "前列腺穿刺活检",
+      "relation": "金标准",
+      "tail": "经直肠或经会阴前列腺系统性穿刺",
+      "source": "中国前列腺癌诊疗指南",
+      "evidence": "前列腺穿刺活检是确诊前列腺癌的金标准，目前推荐12针以上系统性穿刺方案",
+      "domain": "筛查诊断",
+      "confidence": 0.98
+    },
+    {
+      "head": "前列腺MRI",
+      "relation": "临床价值",
+      "tail": "靶向穿刺引导和局部分期评估",
+      "source": "PI-RADS v2.1",
+      "evidence": "多参数MRI(mpMRI)联合PI-RADS评分系统可指导靶向穿刺，提高 clinically significant PCa 检出率",
+      "domain": "筛查诊断",
+      "confidence": 0.95
+    }
+  ]
+}

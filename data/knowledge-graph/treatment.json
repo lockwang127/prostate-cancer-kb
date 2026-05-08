@@ -1,0 +1,135 @@
+{
+  "domain": "前列腺癌治疗方案",
+  "version": "1.0.0",
+  "description": "前列腺癌各治疗方式知识三元组",
+  "triplets": [
+    {
+      "head": "根治性前列腺切除术",
+      "relation": "手术方式",
+      "tail": "机器人辅助腹腔镜根治性前列腺切除术(RARP)",
+      "source": "中国前列腺癌诊疗指南",
+      "evidence": "RARP是目前最常用的手术方式，具有出血少、恢复快、神经保留好的优势",
+      "domain": "手术治疗",
+      "confidence": 0.95
+    },
+    {
+      "head": "根治性前列腺切除术",
+      "relation": "适应证",
+      "tail": "预期寿命>10年的局限性前列腺癌",
+      "source": "中国前列腺癌诊疗指南",
+      "evidence": "根治性手术适用于临床分期T1-T2、预期寿命超过10年的局限性前列腺癌患者",
+      "domain": "手术治疗",
+      "confidence": 0.95
+    },
+    {
+      "head": "根治性前列腺切除术",
+      "relation": "主要并发症",
+      "tail": "尿失禁和勃起功能障碍",
+      "source": "术后随访研究",
+      "evidence": "术后12个月尿失禁发生率约5-15%，勃起功能障碍发生率约20-60%（取决于神经保留程度）",
+      "domain": "手术治疗",
+      "confidence": 0.90
+    },
+    {
+      "head": "前列腺癌近距离放疗",
+      "relation": "方式分类",
+      "tail": "低剂量率(LDR)和高剂量率(HDR)",
+      "source": "中国前列腺癌诊疗指南",
+      "evidence": "LDR使用I-125粒子永久植入，HDR使用Ir-192临时高剂量照射",
+      "domain": "放射治疗",
+      "confidence": 0.95
+    },
+    {
+      "head": "近距离放疗",
+      "relation": "适应证",
+      "tail": "低危至中危局限性前列腺癌",
+      "source": "中国前列腺癌诊疗指南",
+      "evidence": "近距离放疗适用于Gleason≤7、PSA<20 ng/mL的局限性前列腺癌，前列腺体积<50mL",
+      "domain": "放射治疗",
+      "confidence": 0.93
+    },
+    {
+      "head": "ADT",
+      "relation": "全称",
+      "tail": "雄激素剥夺治疗",
+      "source": "中国前列腺癌诊疗指南",
+      "evidence": "ADT是前列腺癌系统性治疗的基石，通过降低体内雄激素水平抑制肿瘤生长",
+      "domain": "内分泌治疗",
+      "confidence": 0.99
+    },
+    {
+      "head": "ADT",
+      "relation": "药物去势方式",
+      "tail": "GnRH激动剂或拮抗剂",
+      "source": "中国前列腺癌诊疗指南",
+      "evidence": "GnRH激动剂(亮丙瑞林、戈舍瑞林)和拮抗剂(地加瑞克、瑞卢戈利)均可达到药物去势",
+      "domain": "内分泌治疗",
+      "confidence": 0.98
+    },
+    {
+      "head": "ADT",
+      "relation": "手术去势方式",
+      "tail": "双侧睾丸切除术",
+      "source": "中国前列腺癌诊疗指南",
+      "evidence": "双侧睾丸切除是不可逆的手术去势方式，现已较少作为首选，多用于药物不可及时",
+      "domain": "内分泌治疗",
+      "confidence": 0.98
+    },
+    {
+      "head": "ADT",
+      "relation": "主要不良反应",
+      "tail": "潮热、骨质疏松、代谢综合征",
+      "source": "临床研究与实践",
+      "evidence": "长期ADT可导致潮热、骨质疏松骨折风险增加、代谢综合征、心血管风险升高",
+      "domain": "内分泌治疗",
+      "confidence": 0.95
+    },
+    {
+      "head": "多西他赛",
+      "relation": "前列腺癌适应证",
+      "tail": "mCRPC一线化疗",
+      "source": "NCCN/CSCO指南",
+      "evidence": "多西他赛75 mg/m² q3w联合泼尼松是mCRPC标准一线化疗方案，基于TAX327研究",
+      "domain": "化学治疗",
+      "confidence": 0.98,
+      "pmid": "15537450"
+    },
+    {
+      "head": "卡巴他赛",
+      "relation": "前列腺癌适应证",
+      "tail": "多西他赛治疗后的mCRPC",
+      "source": "NCCN/CSCO指南",
+      "evidence": "卡巴他赛25 mg/m² q3w用于多西他赛耐药后的mCRPC患者，基于TROPIC研究",
+      "domain": "化学治疗",
+      "confidence": 0.95,
+      "pmid": "21067452"
+    },
+    {
+      "head": "新型激素药物",
+      "relation": "药物分类",
+      "tail": "CYP17A1抑制剂和雄激素受体信号抑制剂",
+      "source": "药理学研究",
+      "evidence": "NHA分为两类：CYP17A1抑制剂(阿比特龙)和ARSi(恩扎卢胺、阿帕他胺、达罗他胺)",
+      "domain": "药物治疗",
+      "confidence": 0.98
+    },
+    {
+      "head": "前列腺癌",
+      "relation": "免疫治疗现状",
+      "tail": "Sipuleucel-T适用于无症状或轻微症状mCRPC",
+      "source": "FDA批准 / 文献综述",
+      "evidence": "Sipuleucel-T是唯一获批的前列腺癌治疗性疫苗，但中国尚未上市",
+      "domain": "免疫治疗",
+      "confidence": 0.85
+    },
+    {
+      "head": "PARP抑制剂",
+      "relation": "前列腺癌适应证",
+      "tail": "HRR基因突变的mCRPC",
+      "source": "CSCO/NCCN指南",
+      "evidence": "奥拉帕利和鲁卡帕利获批用于携带BRCA1/2或HRR基因突变的mCRPC患者",
+      "domain": "靶向治疗",
+      "confidence": 0.95
+    }
+  ]
+}

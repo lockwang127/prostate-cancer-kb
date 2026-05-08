@@ -1,0 +1,66 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "前列腺癌知识三元组Schema",
+  "description": "前列腺癌知识图谱三元组数据格式规范",
+  "type": "object",
+  "required": ["domain", "version", "description", "triplets"],
+  "properties": {
+    "domain": {
+      "type": "string",
+      "description": "知识领域名称"
+    },
+    "version": {
+      "type": "string",
+      "description": "数据版本号",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$"
+    },
+    "description": {
+      "type": "string",
+      "description": "数据集描述"
+    },
+    "triplets": {
+      "type": "array",
+      "description": "知识三元组列表",
+      "items": {
+        "type": "object",
+        "required": ["head", "relation", "tail", "source", "evidence", "domain", "confidence"],
+        "properties": {
+          "head": {
+            "type": "string",
+            "description": "三元组头实体"
+          },
+          "relation": {
+            "type": "string",
+            "description": "三元组关系"
+          },
+          "tail": {
+            "type": "string",
+            "description": "三元组尾实体"
+          },
+          "source": {
+            "type": "string",
+            "description": "数据来源"
+          },
+          "evidence": {
+            "type": "string",
+            "description": "证据描述"
+          },
+          "domain": {
+            "type": "string",
+            "description": "所属知识域"
+          },
+          "confidence": {
+            "type": "number",
+            "description": "置信度(0-1)",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "pmid": {
+            "type": ["string", "null"],
+            "description": "PubMed文献ID（可选）"
+          }
+        }
+      }
+    }
+  }
+}

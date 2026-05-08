@@ -1,0 +1,550 @@
+{
+  "knowledge_base": "prostate-cancer-kb",
+  "version": "1.0.0",
+  "build_time": "2026-05-08T11:09:23.540844",
+  "total_triplets": 53,
+  "total_domains": 17,
+  "source_files": [
+    "biomarkers.json",
+    "csco_2024.json",
+    "epidemiology.json",
+    "treatment.json"
+  ],
+  "triplets": [
+    {
+      "head": "Gleason评分",
+      "relation": "定义",
+      "tail": "前列腺腺体分化程度的病理评分系统",
+      "source": "ISUP 2014共识 / Gleason分级系统",
+      "evidence": "Gleason评分基于前列腺腺体结构模式，评分范围6-10分，是最重要的预后因素之一",
+      "domain": "病理评估",
+      "confidence": 0.98,
+      "_source_file": "biomarkers.json"
+    },
+    {
+      "head": "Gleason评分",
+      "relation": "评分范围",
+      "tail": "6-10分",
+      "source": "ISUP 2014共识",
+      "evidence": "2014年ISUP共识将最低评分调整为6分（3+3），取消2-5分的低级别分类",
+      "domain": "病理评估",
+      "confidence": 0.99,
+      "_source_file": "biomarkers.json"
+    },
+    {
+      "head": "ISUP分级系统",
+      "relation": "分级标准",
+      "tail": "基于Gleason评分的5级分组",
+      "source": "ISUP 2014共识",
+      "evidence": "ISUP 1级(Gleason≤6)、2级(3+4=7)、3级(4+3=7)、4级(8)、5级(9-10)",
+      "domain": "病理评估",
+      "confidence": 0.99,
+      "_source_file": "biomarkers.json"
+    },
+    {
+      "head": "PSA",
+      "relation": "筛查阈值",
+      "tail": "4 ng/mL",
+      "source": "中国前列腺癌筛查指南",
+      "evidence": "PSA>4 ng/mL为异常，建议进一步检查；>10 ng/mL前列腺癌概率显著升高",
+      "domain": "筛查诊断",
+      "confidence": 0.9,
+      "_source_file": "biomarkers.json"
+    },
+    {
+      "head": "PSA",
+      "relation": "全称",
+      "tail": "前列腺特异性抗原",
+      "source": "临床检验标准",
+      "evidence": "PSA是由前列腺上皮细胞分泌的丝氨酸蛋白酶，正常情况下主要存在于精液中",
+      "domain": "筛查诊断",
+      "confidence": 0.99,
+      "_source_file": "biomarkers.json"
+    },
+    {
+      "head": "PSAD",
+      "relation": "全称",
+      "tail": "PSA密度",
+      "source": "临床实践",
+      "evidence": "PSAD = 血清PSA/前列腺体积(ml)，正常值<0.15 ng/mL/ml，有助于鉴别BPH与前列腺癌",
+      "domain": "筛查诊断",
+      "confidence": 0.95,
+      "_source_file": "biomarkers.json"
+    },
+    {
+      "head": "free PSA比值",
+      "relation": "临床意义",
+      "tail": "PSA灰区鉴别指标",
+      "source": "中国前列腺癌诊疗指南",
+      "evidence": "当PSA在4-10 ng/mL灰区时，free PSA/total PSA<0.16提示前列腺癌可能性大",
+      "domain": "筛查诊断",
+      "confidence": 0.92,
+      "_source_file": "biomarkers.json"
+    },
+    {
+      "head": "前列腺癌TNM分期",
+      "relation": "T分期标准",
+      "tail": "T1-T4基于肿瘤侵犯范围",
+      "source": "AJCC第8版",
+      "evidence": "T1:临床未触及；T2:局限于前列腺内；T3:突破前列腺包膜；T4:侵犯邻近结构",
+      "domain": "分期系统",
+      "confidence": 0.98,
+      "_source_file": "biomarkers.json"
+    },
+    {
+      "head": "前列腺癌",
+      "relation": "危险分层-低危",
+      "tail": "T1-T2a, Gleason≤6, PSA<10",
+      "source": "NCCN/CSCO指南",
+      "evidence": "低危前列腺癌：临床分期T1-T2a，Gleason评分≤6分，PSA<10 ng/mL",
+      "domain": "危险分层",
+      "confidence": 0.98,
+      "_source_file": "biomarkers.json"
+    },
+    {
+      "head": "前列腺癌",
+      "relation": "危险分层-中危",
+      "tail": "T2b-T2c或Gleason 7或PSA 10-20",
+      "source": "NCCN/CSCO指南",
+      "evidence": "中危：T2b-T2c或Gleason 7(3+4或4+3)或PSA 10-20 ng/mL",
+      "domain": "危险分层",
+      "confidence": 0.98,
+      "_source_file": "biomarkers.json"
+    },
+    {
+      "head": "前列腺癌",
+      "relation": "危险分层-高危",
+      "tail": "T3a或Gleason≥8或PSA>20",
+      "source": "NCCN/CSCO指南",
+      "evidence": "高危：T3a及以上或Gleason评分≥8分或PSA>20 ng/mL",
+      "domain": "危险分层",
+      "confidence": 0.98,
+      "_source_file": "biomarkers.json"
+    },
+    {
+      "head": "前列腺穿刺活检",
+      "relation": "金标准",
+      "tail": "经直肠或经会阴前列腺系统性穿刺",
+      "source": "中国前列腺癌诊疗指南",
+      "evidence": "前列腺穿刺活检是确诊前列腺癌的金标准，目前推荐12针以上系统性穿刺方案",
+      "domain": "筛查诊断",
+      "confidence": 0.98,
+      "_source_file": "biomarkers.json"
+    },
+    {
+      "head": "前列腺MRI",
+      "relation": "临床价值",
+      "tail": "靶向穿刺引导和局部分期评估",
+      "source": "PI-RADS v2.1",
+      "evidence": "多参数MRI(mpMRI)联合PI-RADS评分系统可指导靶向穿刺，提高 clinically significant PCa 检出率",
+      "domain": "筛查诊断",
+      "confidence": 0.95,
+      "_source_file": "biomarkers.json"
+    },
+    {
+      "head": "低危前列腺癌",
+      "relation": "CSCO 2024推荐治疗",
+      "tail": "主动监测",
+      "source": "CSCO前列腺癌诊疗指南2024版",
+      "evidence": "低危前列腺癌可选择主动监测，定期PSA检测、前列腺穿刺复查，避免过度治疗",
+      "domain": "治疗指南",
+      "confidence": 0.95,
+      "_source_file": "csco_2024.json"
+    },
+    {
+      "head": "低危前列腺癌",
+      "relation": "CSCO 2024推荐治疗",
+      "tail": "根治性前列腺切除术",
+      "source": "CSCO前列腺癌诊疗指南2024版",
+      "evidence": "低危患者预期寿命>10年可选择根治性手术，术后10年肿瘤特异性生存率>95%",
+      "domain": "治疗指南",
+      "confidence": 0.95,
+      "_source_file": "csco_2024.json"
+    },
+    {
+      "head": "低危前列腺癌",
+      "relation": "CSCO 2024推荐治疗",
+      "tail": "根治性放疗",
+      "source": "CSCO前列腺癌诊疗指南2024版",
+      "evidence": "外照射放疗(EBRT)是低危前列腺癌的根治性治疗选择，疗效与手术相当",
+      "domain": "治疗指南",
+      "confidence": 0.95,
+      "_source_file": "csco_2024.json"
+    },
+    {
+      "head": "中危前列腺癌",
+      "relation": "CSCO 2024推荐治疗",
+      "tail": "根治性前列腺切除术",
+      "source": "CSCO前列腺癌诊疗指南2024版",
+      "evidence": "中危前列腺癌首选根治性手术或放疗，部分需联合辅助治疗",
+      "domain": "治疗指南",
+      "confidence": 0.95,
+      "_source_file": "csco_2024.json"
+    },
+    {
+      "head": "中危前列腺癌",
+      "relation": "CSCO 2024推荐治疗",
+      "tail": "放疗联合ADT内分泌治疗",
+      "source": "CSCO前列腺癌诊疗指南2024版",
+      "evidence": "中危患者接受放疗时可联合4-6个月的ADT治疗，降低生化复发风险",
+      "domain": "治疗指南",
+      "confidence": 0.95,
+      "_source_file": "csco_2024.json"
+    },
+    {
+      "head": "高危前列腺癌",
+      "relation": "CSCO 2024推荐治疗",
+      "tail": "根治性手术联合辅助/挽救治疗",
+      "source": "CSCO前列腺癌诊疗指南2024版",
+      "evidence": "高危局限性前列腺癌推荐根治性手术，术后根据病理结果决定辅助放疗或挽救性放疗",
+      "domain": "治疗指南",
+      "confidence": 0.95,
+      "_source_file": "csco_2024.json"
+    },
+    {
+      "head": "局部晚期前列腺癌",
+      "relation": "CSCO 2024推荐治疗",
+      "tail": "放疗联合长期ADT",
+      "source": "CSCO前列腺癌诊疗指南2024版",
+      "evidence": "局部晚期(cT3-4或N+)患者推荐放疗联合长期(2-3年)ADT治疗",
+      "domain": "治疗指南",
+      "confidence": 0.95,
+      "_source_file": "csco_2024.json"
+    },
+    {
+      "head": "转移性去势抵抗性前列腺癌",
+      "relation": "CSCO 2024推荐治疗",
+      "tail": "新型内分泌治疗",
+      "source": "CSCO前列腺癌诊疗指南2024版",
+      "evidence": "mCRPC一线推荐新型内分泌药物（阿比特龙、恩扎卢胺、阿帕他胺、达罗他胺）",
+      "domain": "治疗指南",
+      "confidence": 0.95,
+      "_source_file": "csco_2024.json"
+    },
+    {
+      "head": "转移性去势抵抗性前列腺癌",
+      "relation": "CSCO 2024推荐治疗",
+      "tail": "多西他赛化疗",
+      "source": "CSCO前列腺癌诊疗指南2024版",
+      "evidence": "mCRPC患者化疗推荐多西他赛75 mg/m² q3w，可延长OS约2.4个月",
+      "domain": "治疗指南",
+      "confidence": 0.95,
+      "_source_file": "csco_2024.json"
+    },
+    {
+      "head": "阿比特龙",
+      "relation": "作用机制",
+      "tail": "CYP17A1抑制剂",
+      "source": "药物说明书 / CSCO指南",
+      "evidence": "阿比特龙抑制CYP17A1酶，阻断雄激素合成途径，需联合泼尼松使用",
+      "domain": "药物治疗",
+      "confidence": 0.98,
+      "_source_file": "csco_2024.json"
+    },
+    {
+      "head": "恩扎卢胺",
+      "relation": "作用机制",
+      "tail": "雄激素受体信号抑制剂(ARSi)",
+      "source": "药物说明书 / CSCO指南",
+      "evidence": "恩扎卢胺为第二代抗雄药物，直接竞争性抑制雄激素受体，并促进受体降解",
+      "domain": "药物治疗",
+      "confidence": 0.98,
+      "_source_file": "csco_2024.json"
+    },
+    {
+      "head": "阿帕他胺",
+      "relation": "适应证",
+      "tail": "nmCRPC和mHSPC",
+      "source": "药物说明书 / CSCO指南",
+      "evidence": "阿帕他胺可用于非转移性去势抵抗性前列腺癌(nmCRPC)和转移性激素敏感性前列腺癌(mHSPC)",
+      "domain": "药物治疗",
+      "confidence": 0.95,
+      "_source_file": "csco_2024.json"
+    },
+    {
+      "head": "达罗他胺",
+      "relation": "适应证",
+      "tail": "nmCRPC和mHSPC",
+      "source": "药物说明书 / CSCO指南",
+      "evidence": "达罗他胺与阿帕他胺类似，适应证包括nmCRPC和mHSPC，血脑屏障穿透率更低",
+      "domain": "药物治疗",
+      "confidence": 0.95,
+      "_source_file": "csco_2024.json"
+    },
+    {
+      "head": "mHSPC",
+      "relation": "CSCO 2024标准治疗",
+      "tail": "ADT联合新型内分泌治疗",
+      "source": "CSCO前列腺癌诊疗指南2024版",
+      "evidence": "转移性激素敏感性前列腺癌(mHSPC)推荐ADT联合阿比特龙或恩扎卢胺等新型内分泌药物",
+      "domain": "治疗指南",
+      "confidence": 0.95,
+      "_source_file": "csco_2024.json"
+    },
+    {
+      "head": "前列腺癌",
+      "relation": "2022年中国新发病例数",
+      "tail": "13.42万例",
+      "source": "GLOBOCAN 2022 / 国家癌症中心",
+      "evidence": "2022年中国前列腺癌新发病例约13.42万，占男性恶性肿瘤发病第6位",
+      "domain": "流行病学",
+      "confidence": 0.95,
+      "pmid": "38433564",
+      "_source_file": "epidemiology.json"
+    },
+    {
+      "head": "前列腺癌",
+      "relation": "2022年中国死亡人数",
+      "tail": "约5万例",
+      "source": "GLOBOCAN 2022 / 国家癌症中心",
+      "evidence": "2022年中国前列腺癌死亡约5万例，病死比约37%",
+      "domain": "流行病学",
+      "confidence": 0.95,
+      "pmid": "38433564",
+      "_source_file": "epidemiology.json"
+    },
+    {
+      "head": "前列腺癌",
+      "relation": "病死比",
+      "tail": "约37%",
+      "source": "GLOBOCAN 2022",
+      "evidence": "前列腺癌病死比约37%，低于肺癌、肝癌等，但晚期预后仍较差",
+      "domain": "流行病学",
+      "confidence": 0.9,
+      "_source_file": "epidemiology.json"
+    },
+    {
+      "head": "前列腺癌",
+      "relation": "中国男性恶性肿瘤发病率排名",
+      "tail": "第6位",
+      "source": "国家癌症中心2022年数据",
+      "evidence": "前列腺癌居中国男性恶性肿瘤发病第6位，位于肺癌、结直肠癌、胃癌、肝癌、食管癌之后",
+      "domain": "流行病学",
+      "confidence": 0.95,
+      "_source_file": "epidemiology.json"
+    },
+    {
+      "head": "前列腺癌发病率",
+      "relation": "变化趋势",
+      "tail": "持续上升",
+      "source": "国家癌症中心统计年报",
+      "evidence": "受老龄化和PSA筛查普及双重影响，中国前列腺癌发病率近年来持续上升，年均增速约8%",
+      "domain": "流行病学",
+      "confidence": 0.92,
+      "_source_file": "epidemiology.json"
+    },
+    {
+      "head": "前列腺癌发病率上升",
+      "relation": "驱动因素",
+      "tail": "人口老龄化",
+      "source": "流行病学研究综述",
+      "evidence": "中国人口老龄化加剧，前列腺癌发病高峰在65-75岁，老龄人口增加直接推动发病人数上升",
+      "domain": "流行病学",
+      "confidence": 0.93,
+      "_source_file": "epidemiology.json"
+    },
+    {
+      "head": "前列腺癌发病率上升",
+      "relation": "驱动因素",
+      "tail": "PSA筛查普及",
+      "source": "中国泌尿外科临床实践",
+      "evidence": "PSA筛查在体检中逐步普及，增加了早期病例检出率，导致统计发病率上升",
+      "domain": "流行病学",
+      "confidence": 0.9,
+      "_source_file": "epidemiology.json"
+    },
+    {
+      "head": "前列腺癌",
+      "relation": "高发年龄",
+      "tail": "65-75岁",
+      "source": "SEER数据库 / 中国癌症统计",
+      "evidence": "前列腺癌发病中位年龄约68岁，65岁以上男性占所有病例的60%以上",
+      "domain": "流行病学",
+      "confidence": 0.95,
+      "_source_file": "epidemiology.json"
+    },
+    {
+      "head": "前列腺癌",
+      "relation": "全球发病率排名",
+      "tail": "男性恶性肿瘤第2位",
+      "source": "GLOBOCAN 2022",
+      "evidence": "全球范围内前列腺癌是男性第二大常见恶性肿瘤，仅次于肺癌",
+      "domain": "流行病学",
+      "confidence": 0.95,
+      "pmid": "38433564",
+      "_source_file": "epidemiology.json"
+    },
+    {
+      "head": "中国前列腺癌",
+      "relation": "诊断特征",
+      "tail": "晚期比例偏高",
+      "source": "中国前列腺癌诊疗现状研究",
+      "evidence": "中国前列腺癌初诊时晚期（III-IV期）比例超过50%，远高于欧美国家的15-20%，主要由于缺乏系统筛查",
+      "domain": "流行病学",
+      "confidence": 0.88,
+      "_source_file": "epidemiology.json"
+    },
+    {
+      "head": "中国前列腺癌",
+      "relation": "5年生存率",
+      "tail": "约66.7%",
+      "source": "国家癌症中心",
+      "evidence": "中国前列腺癌5年相对生存率约66.7%，低于美国的97%以上，与早诊率偏低有关",
+      "domain": "流行病学",
+      "confidence": 0.9,
+      "_source_file": "epidemiology.json"
+    },
+    {
+      "head": "前列腺癌",
+      "relation": "危险因素",
+      "tail": "家族史",
+      "source": "遗传流行病学研究",
+      "evidence": "有前列腺癌家族史的男性发病风险增加2-3倍，BRCA2突变携带者风险更高",
+      "domain": "流行病学",
+      "confidence": 0.93,
+      "_source_file": "epidemiology.json"
+    },
+    {
+      "head": "根治性前列腺切除术",
+      "relation": "手术方式",
+      "tail": "机器人辅助腹腔镜根治性前列腺切除术(RARP)",
+      "source": "中国前列腺癌诊疗指南",
+      "evidence": "RARP是目前最常用的手术方式，具有出血少、恢复快、神经保留好的优势",
+      "domain": "手术治疗",
+      "confidence": 0.95,
+      "_source_file": "treatment.json"
+    },
+    {
+      "head": "根治性前列腺切除术",
+      "relation": "适应证",
+      "tail": "预期寿命>10年的局限性前列腺癌",
+      "source": "中国前列腺癌诊疗指南",
+      "evidence": "根治性手术适用于临床分期T1-T2、预期寿命超过10年的局限性前列腺癌患者",
+      "domain": "手术治疗",
+      "confidence": 0.95,
+      "_source_file": "treatment.json"
+    },
+    {
+      "head": "根治性前列腺切除术",
+      "relation": "主要并发症",
+      "tail": "尿失禁和勃起功能障碍",
+      "source": "术后随访研究",
+      "evidence": "术后12个月尿失禁发生率约5-15%，勃起功能障碍发生率约20-60%（取决于神经保留程度）",
+      "domain": "手术治疗",
+      "confidence": 0.9,
+      "_source_file": "treatment.json"
+    },
+    {
+      "head": "前列腺癌近距离放疗",
+      "relation": "方式分类",
+      "tail": "低剂量率(LDR)和高剂量率(HDR)",
+      "source": "中国前列腺癌诊疗指南",
+      "evidence": "LDR使用I-125粒子永久植入，HDR使用Ir-192临时高剂量照射",
+      "domain": "放射治疗",
+      "confidence": 0.95,
+      "_source_file": "treatment.json"
+    },
+    {
+      "head": "近距离放疗",
+      "relation": "适应证",
+      "tail": "低危至中危局限性前列腺癌",
+      "source": "中国前列腺癌诊疗指南",
+      "evidence": "近距离放疗适用于Gleason≤7、PSA<20 ng/mL的局限性前列腺癌，前列腺体积<50mL",
+      "domain": "放射治疗",
+      "confidence": 0.93,
+      "_source_file": "treatment.json"
+    },
+    {
+      "head": "ADT",
+      "relation": "全称",
+      "tail": "雄激素剥夺治疗",
+      "source": "中国前列腺癌诊疗指南",
+      "evidence": "ADT是前列腺癌系统性治疗的基石，通过降低体内雄激素水平抑制肿瘤生长",
+      "domain": "内分泌治疗",
+      "confidence": 0.99,
+      "_source_file": "treatment.json"
+    },
+    {
+      "head": "ADT",
+      "relation": "药物去势方式",
+      "tail": "GnRH激动剂或拮抗剂",
+      "source": "中国前列腺癌诊疗指南",
+      "evidence": "GnRH激动剂(亮丙瑞林、戈舍瑞林)和拮抗剂(地加瑞克、瑞卢戈利)均可达到药物去势",
+      "domain": "内分泌治疗",
+      "confidence": 0.98,
+      "_source_file": "treatment.json"
+    },
+    {
+      "head": "ADT",
+      "relation": "手术去势方式",
+      "tail": "双侧睾丸切除术",
+      "source": "中国前列腺癌诊疗指南",
+      "evidence": "双侧睾丸切除是不可逆的手术去势方式，现已较少作为首选，多用于药物不可及时",
+      "domain": "内分泌治疗",
+      "confidence": 0.98,
+      "_source_file": "treatment.json"
+    },
+    {
+      "head": "ADT",
+      "relation": "主要不良反应",
+      "tail": "潮热、骨质疏松、代谢综合征",
+      "source": "临床研究与实践",
+      "evidence": "长期ADT可导致潮热、骨质疏松骨折风险增加、代谢综合征、心血管风险升高",
+      "domain": "内分泌治疗",
+      "confidence": 0.95,
+      "_source_file": "treatment.json"
+    },
+    {
+      "head": "多西他赛",
+      "relation": "前列腺癌适应证",
+      "tail": "mCRPC一线化疗",
+      "source": "NCCN/CSCO指南",
+      "evidence": "多西他赛75 mg/m² q3w联合泼尼松是mCRPC标准一线化疗方案，基于TAX327研究",
+      "domain": "化学治疗",
+      "confidence": 0.98,
+      "pmid": "15537450",
+      "_source_file": "treatment.json"
+    },
+    {
+      "head": "卡巴他赛",
+      "relation": "前列腺癌适应证",
+      "tail": "多西他赛治疗后的mCRPC",
+      "source": "NCCN/CSCO指南",
+      "evidence": "卡巴他赛25 mg/m² q3w用于多西他赛耐药后的mCRPC患者，基于TROPIC研究",
+      "domain": "化学治疗",
+      "confidence": 0.95,
+      "pmid": "21067452",
+      "_source_file": "treatment.json"
+    },
+    {
+      "head": "新型激素药物",
+      "relation": "药物分类",
+      "tail": "CYP17A1抑制剂和雄激素受体信号抑制剂",
+      "source": "药理学研究",
+      "evidence": "NHA分为两类：CYP17A1抑制剂(阿比特龙)和ARSi(恩扎卢胺、阿帕他胺、达罗他胺)",
+      "domain": "药物治疗",
+      "confidence": 0.98,
+      "_source_file": "treatment.json"
+    },
+    {
+      "head": "前列腺癌",
+      "relation": "免疫治疗现状",
+      "tail": "Sipuleucel-T适用于无症状或轻微症状mCRPC",
+      "source": "FDA批准 / 文献综述",
+      "evidence": "Sipuleucel-T是唯一获批的前列腺癌治疗性疫苗，但中国尚未上市",
+      "domain": "免疫治疗",
+      "confidence": 0.85,
+      "_source_file": "treatment.json"
+    },
+    {
+      "head": "PARP抑制剂",
+      "relation": "前列腺癌适应证",
+      "tail": "HRR基因突变的mCRPC",
+      "source": "CSCO/NCCN指南",
+      "evidence": "奥拉帕利和鲁卡帕利获批用于携带BRCA1/2或HRR基因突变的mCRPC患者",
+      "domain": "靶向治疗",
+      "confidence": 0.95,
+      "_source_file": "treatment.json"
+    }
+  ]
+}

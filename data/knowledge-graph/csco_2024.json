@@ -1,0 +1,133 @@
+{
+  "domain": "前列腺癌CSCO 2024指南推荐",
+  "version": "1.0.0",
+  "description": "基于CSCO 2024前列腺癌诊疗指南的知识三元组",
+  "triplets": [
+    {
+      "head": "低危前列腺癌",
+      "relation": "CSCO 2024推荐治疗",
+      "tail": "主动监测",
+      "source": "CSCO前列腺癌诊疗指南2024版",
+      "evidence": "低危前列腺癌可选择主动监测，定期PSA检测、前列腺穿刺复查，避免过度治疗",
+      "domain": "治疗指南",
+      "confidence": 0.95
+    },
+    {
+      "head": "低危前列腺癌",
+      "relation": "CSCO 2024推荐治疗",
+      "tail": "根治性前列腺切除术",
+      "source": "CSCO前列腺癌诊疗指南2024版",
+      "evidence": "低危患者预期寿命>10年可选择根治性手术，术后10年肿瘤特异性生存率>95%",
+      "domain": "治疗指南",
+      "confidence": 0.95
+    },
+    {
+      "head": "低危前列腺癌",
+      "relation": "CSCO 2024推荐治疗",
+      "tail": "根治性放疗",
+      "source": "CSCO前列腺癌诊疗指南2024版",
+      "evidence": "外照射放疗(EBRT)是低危前列腺癌的根治性治疗选择，疗效与手术相当",
+      "domain": "治疗指南",
+      "confidence": 0.95
+    },
+    {
+      "head": "中危前列腺癌",
+      "relation": "CSCO 2024推荐治疗",
+      "tail": "根治性前列腺切除术",
+      "source": "CSCO前列腺癌诊疗指南2024版",
+      "evidence": "中危前列腺癌首选根治性手术或放疗，部分需联合辅助治疗",
+      "domain": "治疗指南",
+      "confidence": 0.95
+    },
+    {
+      "head": "中危前列腺癌",
+      "relation": "CSCO 2024推荐治疗",
+      "tail": "放疗联合ADT内分泌治疗",
+      "source": "CSCO前列腺癌诊疗指南2024版",
+      "evidence": "中危患者接受放疗时可联合4-6个月的ADT治疗，降低生化复发风险",
+      "domain": "治疗指南",
+      "confidence": 0.95
+    },
+    {
+      "head": "高危前列腺癌",
+      "relation": "CSCO 2024推荐治疗",
+      "tail": "根治性手术联合辅助/挽救治疗",
+      "source": "CSCO前列腺癌诊疗指南2024版",
+      "evidence": "高危局限性前列腺癌推荐根治性手术，术后根据病理结果决定辅助放疗或挽救性放疗",
+      "domain": "治疗指南",
+      "confidence": 0.95
+    },
+    {
+      "head": "局部晚期前列腺癌",
+      "relation": "CSCO 2024推荐治疗",
+      "tail": "放疗联合长期ADT",
+      "source": "CSCO前列腺癌诊疗指南2024版",
+      "evidence": "局部晚期(cT3-4或N+)患者推荐放疗联合长期(2-3年)ADT治疗",
+      "domain": "治疗指南",
+      "confidence": 0.95
+    },
+    {
+      "head": "转移性去势抵抗性前列腺癌",
+      "relation": "CSCO 2024推荐治疗",
+      "tail": "新型内分泌治疗",
+      "source": "CSCO前列腺癌诊疗指南2024版",
+      "evidence": "mCRPC一线推荐新型内分泌药物（阿比特龙、恩扎卢胺、阿帕他胺、达罗他胺）",
+      "domain": "治疗指南",
+      "confidence": 0.95
+    },
+    {
+      "head": "转移性去势抵抗性前列腺癌",
+      "relation": "CSCO 2024推荐治疗",
+      "tail": "多西他赛化疗",
+      "source": "CSCO前列腺癌诊疗指南2024版",
+      "evidence": "mCRPC患者化疗推荐多西他赛75 mg/m² q3w，可延长OS约2.4个月",
+      "domain": "治疗指南",
+      "confidence": 0.95
+    },
+    {
+      "head": "阿比特龙",
+      "relation": "作用机制",
+      "tail": "CYP17A1抑制剂",
+      "source": "药物说明书 / CSCO指南",
+      "evidence": "阿比特龙抑制CYP17A1酶，阻断雄激素合成途径，需联合泼尼松使用",
+      "domain": "药物治疗",
+      "confidence": 0.98
+    },
+    {
+      "head": "恩扎卢胺",
+      "relation": "作用机制",
+      "tail": "雄激素受体信号抑制剂(ARSi)",
+      "source": "药物说明书 / CSCO指南",
+      "evidence": "恩扎卢胺为第二代抗雄药物，直接竞争性抑制雄激素受体，并促进受体降解",
+      "domain": "药物治疗",
+      "confidence": 0.98
+    },
+    {
+      "head": "阿帕他胺",
+      "relation": "适应证",
+      "tail": "nmCRPC和mHSPC",
+      "source": "药物说明书 / CSCO指南",
+      "evidence": "阿帕他胺可用于非转移性去势抵抗性前列腺癌(nmCRPC)和转移性激素敏感性前列腺癌(mHSPC)",
+      "domain": "药物治疗",
+      "confidence": 0.95
+    },
+    {
+      "head": "达罗他胺",
+      "relation": "适应证",
+      "tail": "nmCRPC和mHSPC",
+      "source": "药物说明书 / CSCO指南",
+      "evidence": "达罗他胺与阿帕他胺类似，适应证包括nmCRPC和mHSPC，血脑屏障穿透率更低",
+      "domain": "药物治疗",
+      "confidence": 0.95
+    },
+    {
+      "head": "mHSPC",
+      "relation": "CSCO 2024标准治疗",
+      "tail": "ADT联合新型内分泌治疗",
+      "source": "CSCO前列腺癌诊疗指南2024版",
+      "evidence": "转移性激素敏感性前列腺癌(mHSPC)推荐ADT联合阿比特龙或恩扎卢胺等新型内分泌药物",
+      "domain": "治疗指南",
+      "confidence": 0.95
+    }
+  ]
+}

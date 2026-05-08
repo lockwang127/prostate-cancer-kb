@@ -1,0 +1,416 @@
+{
+  "domain": "前列腺癌新靶点与新药研发",
+  "version": "1.0.0",
+  "description": "前列腺癌新靶点与新药研发知识三元组",
+  "triplets": [
+    {
+      "head": "PARP抑制剂",
+      "relation": "在mCRPC中应用",
+      "tail": "奥拉帕利、Rucaparib、Niraparib、Talazoparib（BRCA/HRR突变）",
+      "source": "NCCN前列腺癌指南2025 / PROfound研究",
+      "evidence": "PARPi是BRCA突变mCRPC标准治疗",
+      "domain": "靶向治疗",
+      "confidence": 0.95,
+      "pmid": "31538254"
+    },
+    {
+      "head": "奥拉帕利(Olaparib)",
+      "relation": "作用机制",
+      "tail": "PARP抑制剂，阻断DNA损伤修复，导致合成致死",
+      "source": "药物说明书 / PROfound研究",
+      "evidence": "奥拉帕利是首个获批的PARP抑制剂",
+      "domain": "靶向治疗",
+      "confidence": 0.98
+    },
+    {
+      "head": "奥拉帕利",
+      "relation": "用法用量(mCRPC)",
+      "tail": "300mg口服每日两次",
+      "source": "药物说明书",
+      "evidence": "空腹或餐后服用均可",
+      "domain": "靶向治疗",
+      "confidence": 0.95
+    },
+    {
+      "head": "Rucaparib(Rubraca)",
+      "relation": "作用机制",
+      "tail": "PARP抑制剂，用于BRCA突变mCRPC",
+      "source": "FDA批准 / TRITON2研究",
+      "evidence": "Rucaparib 2025年获FDA常规批准",
+      "domain": "靶向治疗",
+      "confidence": 0.92,
+      "pmid": "33216757"
+    },
+    {
+      "head": "177Lu-PSMA-617(Pluvicto)",
+      "relation": "作用机制",
+      "tail": "PSMA靶向放射性配体治疗(RLT)，发射β粒子杀伤肿瘤",
+      "source": "FDA批准 / VISION研究",
+      "evidence": "177Lu-PSMA-617是首个获批的PSMA RLT",
+      "domain": "放射治疗",
+      "confidence": 0.95,
+      "pmid": "35263599"
+    },
+    {
+      "head": "177Lu-PSMA-617",
+      "relation": "用法用量",
+      "tail": "7.4GBq IV每6周一次，最多6次",
+      "source": "药物说明书 / VISION研究",
+      "evidence": "PSMA RLT是mCRPC重要进展",
+      "domain": "放射治疗",
+      "confidence": 0.95
+    },
+    {
+      "head": "下一代PSMA RLT",
+      "relation": "研发方向",
+      "tail": "177Lu-PSMA-617类似物、225Ac-PSMA（α粒子）",
+      "source": "临床研究",
+      "evidence": "α粒子RLT可能更有效",
+      "domain": "靶向治疗",
+      "confidence": 0.80
+    },
+    {
+      "head": "AR PROTAC降解剂(ARV-110)",
+      "relation": "作用机制",
+      "tail": "PROTAC降解AR蛋白，包括AR-V7等突变体",
+      "source": "Arvinas / 临床研究",
+      "evidence": "ARV-110是首个进入临床的AR PROTAC",
+      "domain": "靶向治疗",
+      "confidence": 0.85
+    },
+    {
+      "head": "ARV-766(PROTAC)",
+      "relation": "特点",
+      "tail": "改良后的AR PROTAC，疗效和安全性更优",
+      "source": "Arvinas / ASCO 2024",
+      "evidence": "ARV-766正在III期临床试验",
+      "domain": "靶向治疗",
+      "confidence": 0.80
+    },
+    {
+      "head": "双特异性抗体(PSMA×CD3)",
+      "relation": "作用机制",
+      "tail": "同时结合PSMA(肿瘤)和CD3(T细胞)，激活T细胞杀伤肿瘤",
+      "source": "肿瘤免疫研究",
+      "evidence": "双特异性抗体是新兴免疫治疗",
+      "domain": "免疫治疗",
+      "confidence": 0.78
+    },
+    {
+      "head": "CAR-T细胞治疗",
+      "relation": "在前列腺癌中",
+      "tail": "靶向PSMA或STEAP1的CAR-T正在探索",
+      "source": "细胞治疗研究",
+      "evidence": "CAR-T在实体瘤中面临挑战",
+      "domain": "免疫治疗",
+      "confidence": 0.72
+    },
+    {
+      "head": "TCR-T细胞治疗",
+      "relation": "在前列腺癌中",
+      "tail": "靶向前列腺癌特异性抗原的TCR-T正在研究",
+      "source": "细胞治疗研究",
+      "evidence": "TCR-T可能识别细胞内抗原",
+      "domain": "免疫治疗",
+      "confidence": 0.70
+    },
+    {
+      "head": "肿瘤疫苗(Provenge/Sipuleucel-T)",
+      "relation": "作用机制",
+      "tail": "自体细胞免疫治疗，激活抗肿瘤免疫",
+      "source": "FDA批准 / 临床研究",
+      "evidence": "Provenge是首个获批的肿瘤疫苗",
+      "domain": "免疫治疗",
+      "confidence": 0.85
+    },
+    {
+      "head": "Provenge(Sipuleucel-T)",
+      "relation": "疗效数据",
+      "tail": "中位OS 25.8个月 vs 21.7个月（安慰剂）",
+      "source": "IMPACT研究 / NEJM 2010",
+      "evidence": "Provenge获FDA批准mCRPC适应证",
+      "domain": "免疫治疗",
+      "confidence": 0.88,
+      "pmid": "20929394"
+    },
+    {
+      "head": "PSMA ADC",
+      "relation": "在前列腺癌中",
+      "tail": "PSMA靶向ADC正在开发中",
+      "source": "ADC研发",
+      "evidence": "PSMA ADC是新兴治疗方向",
+      "domain": "靶向治疗",
+      "confidence": 0.75
+    },
+    {
+      "head": "STEAP1 ADC",
+      "relation": "在前列腺癌中",
+      "tail": "STEAP1是前列腺癌新兴靶点，ADC正在开发",
+      "source": "ADC研发",
+      "evidence": "STEAP1在前列腺癌高表达",
+      "domain": "靶向治疗",
+      "confidence": 0.72
+    },
+    {
+      "head": "PI3K/AKT/mTOR通路抑制剂",
+      "relation": "在前列腺癌中",
+      "tail": "PIK3CA突变患者可能从Pi3K抑制剂获益",
+      "source": "分子靶向研究",
+      "evidence": "PI3K通路是耐药机制之一",
+      "domain": "靶向治疗",
+      "confidence": 0.78
+    },
+    {
+      "head": "mTOR抑制剂",
+      "relation": "在前列腺癌中",
+      "tail": "依维莫司等mTOR抑制剂正在探索",
+      "source": "分子靶向研究",
+      "evidence": "mTOR抑制剂单药活性有限",
+      "domain": "靶向治疗",
+      "confidence": 0.72
+    },
+    {
+      "head": "ATR抑制剂",
+      "relation": "在前列腺癌中",
+      "tail": "ATR抑制剂与PARPi有协同作用",
+      "source": "分子靶向研究",
+      "evidence": "ATR抑制剂正在联合PARPi探索",
+      "domain": "靶向治疗",
+      "confidence": 0.75
+    },
+    {
+      "head": "WEE1抑制剂(Adavosertib)",
+      "relation": "在前列腺癌中",
+      "tail": "WEE1抑制剂可增强PARPi和化疗效果",
+      "source": "分子靶向研究",
+      "evidence": "WEE1抑制剂正在临床试验中",
+      "domain": "靶向治疗",
+      "confidence": 0.72
+    },
+    {
+      "head": "CHK1/CHK2抑制剂",
+      "relation": "在前列腺癌中",
+      "tail": "CHK抑制剂可增强DDR抑制剂效果",
+      "source": "分子靶向研究",
+      "evidence": "CHK抑制剂正在开发中",
+      "domain": "靶向治疗",
+      "confidence": 0.70
+    },
+    {
+      "head": "EZH2抑制剂(Tazemetostat)",
+      "relation": "在前列腺癌中",
+      "tail": "EZH2在去势抵抗前列腺癌中可能过表达",
+      "source": "表观遗传研究",
+      "evidence": "EZH2抑制剂正在探索",
+      "domain": "靶向治疗",
+      "confidence": 0.70
+    },
+    {
+      "head": "HDAC抑制剂",
+      "relation": "在前列腺癌中",
+      "tail": "伏立诺他等HDAC抑制剂正在探索",
+      "source": "表观遗传研究",
+      "evidence": "HDAC抑制剂可调节基因表达",
+      "domain": "靶向治疗",
+      "confidence": 0.70
+    },
+    {
+      "head": "BRD4抑制剂",
+      "relation": "在前列腺癌中",
+      "tail": "BRD4是表观遗传读取器，正在探索中",
+      "source": "表观遗传研究",
+      "evidence": "BRD4抑制剂可能逆转AR耐药",
+      "domain": "靶向治疗",
+      "confidence": 0.68
+    },
+    {
+      "head": "STAT3抑制剂",
+      "relation": "在前列腺癌中",
+      "tail": "STAT3通路与前列腺癌进展相关",
+      "source": "分子靶向研究",
+      "evidence": "STAT3抑制剂正在开发中",
+      "domain": "靶向治疗",
+      "confidence": 0.70
+    },
+    {
+      "head": "CXCR4拮抗剂",
+      "relation": "在前列腺癌中",
+      "tail": "CXCR4参与肿瘤转移，拮抗剂正在探索",
+      "source": "分子靶向研究",
+      "evidence": "CXCR4拮抗剂可能抑制转移",
+      "domain": "靶向治疗",
+      "confidence": 0.72
+    },
+    {
+      "head": "双PARP抑制剂",
+      "relation": "在前列腺癌中",
+      "tail": "奥拉帕利+Niraparib等双PARPi联合正在探索",
+      "source": "临床研究",
+      "evidence": "双PARPi毒性需关注",
+      "domain": "靶向治疗",
+      "confidence": 0.70
+    },
+    {
+      "head": "PARPi+免疫检查点抑制剂",
+      "relation": "联合机制",
+      "tail": "PARPi可增加肿瘤突变负荷和免疫原性，与PD-1抑制剂协同",
+      "source": "肿瘤免疫研究",
+      "evidence": "PARPi+IO联合是热门方向",
+      "domain": "靶向治疗",
+      "confidence": 0.80
+    },
+    {
+      "head": "AR-V7降解剂",
+      "relation": "在前列腺癌中",
+      "tail": "选择性降解AR-V7的小分子正在开发",
+      "source": "分子靶向研究",
+      "evidence": "AR-V7是耐药关键介质",
+      "domain": "靶向治疗",
+      "confidence": 0.72
+    },
+    {
+      "head": "COVID-19与前列腺癌",
+      "relation": "研究数据",
+      "tail": "新冠感染前列腺癌患者预后较差（免疫抑制状态）",
+      "source": "真实世界研究",
+      "evidence": "真实世界数据显示相关性",
+      "domain": "前列腺癌流行病学",
+      "confidence": 0.75
+    },
+    {
+      "head": "恩扎卢胺",
+      "relation": "AR-V7阳性患者",
+      "tail": "AR-V7阳性患者对恩扎卢胺反应差，应考虑化疗或PARP抑制剂",
+      "source": "CSCO指南2024 / 临床研究",
+      "evidence": "分子标志物指导治疗决策",
+      "domain": "内分泌治疗",
+      "confidence": 0.88
+    },
+    {
+      "head": "PARP抑制剂真实世界安全性",
+      "relation": "数据",
+      "tail": "贫血、疲乏、恶心常见，严重不良反应罕见",
+      "source": "真实世界研究",
+      "evidence": "PARPi在真实世界耐受性良好",
+      "domain": "靶向治疗",
+      "confidence": 0.85
+    },
+    {
+      "head": "177Lu-PSMA-617真实世界应用",
+      "relation": "数据",
+      "tail": "真实世界ORR约40-50%，与VISION研究一致",
+      "source": "真实世界研究",
+      "evidence": "PSMA RLT真实世界有效",
+      "domain": "放射治疗",
+      "confidence": 0.85
+    },
+    {
+      "head": "下一代AR PROTAC",
+      "relation": "研发进展",
+      "tail": "ARV-766(III期)、ARV-110(已终止)等",
+      "source": "Arvinas / 临床研究",
+      "evidence": "AR PROTAC是AR靶向治疗新方向",
+      "domain": "靶向治疗",
+      "confidence": 0.78
+    },
+    {
+      "head": "双特异性T细胞衔接器(BiTE)",
+      "relation": "在前列腺癌中",
+      "tail": "靶向PSMA或STEAP1的BiTE正在探索",
+      "source": "肿瘤免疫研究",
+      "evidence": "BiTE可激活T细胞杀伤肿瘤",
+      "domain": "免疫治疗",
+      "confidence": 0.72
+    },
+    {
+      "head": "NK细胞接合器",
+      "relation": "在前列腺癌中",
+      "tail": "双特异性NK细胞接合器正在探索中",
+      "source": "肿瘤免疫研究",
+      "evidence": "NK细胞接合器是新兴免疫疗法",
+      "domain": "免疫治疗",
+      "confidence": 0.68
+    },
+    {
+      "head": "溶瘤病毒",
+      "relation": "在前列腺癌中",
+      "tail": "溶瘤病毒正在探索中",
+      "source": "溶瘤病毒研究",
+      "evidence": "溶瘤病毒可选择性感染肿瘤细胞",
+      "domain": "免疫治疗",
+      "confidence": 0.65
+    },
+    {
+      "head": "癌症疫苗(新一代)",
+      "relation": "在前列腺癌中",
+      "tail": "mRNA疫苗、DC疫苗、肽疫苗等正在研发",
+      "source": "疫苗研究 / 临床试验",
+      "evidence": "新一代疫苗旨在提高免疫原性",
+      "domain": "免疫治疗",
+      "confidence": 0.75
+    },
+    {
+      "head": "PSMA靶向治疗",
+      "relation": "新兴方向",
+      "tail": "PSMA ADC、PSMA BiTE、PSMA CAR-T等",
+      "source": "肿瘤靶向治疗研究",
+      "evidence": "PSMA是前列腺癌经典靶点",
+      "domain": "靶向治疗",
+      "confidence": 0.80
+    },
+    {
+      "head": "STEAP1靶向治疗",
+      "relation": "新兴方向",
+      "tail": "STEAP1 ADC、STEAP1 BiTE等",
+      "source": "肿瘤靶向治疗研究",
+      "evidence": "STEAP1是前列腺癌新兴靶点",
+      "domain": "靶向治疗",
+      "confidence": 0.75
+    },
+    {
+      "head": "TME(肿瘤微环境)调节",
+      "relation": "在前列腺癌中",
+      "tail": "TME调节剂（如CSF-1R抑制剂）正在探索",
+      "source": "肿瘤微环境研究",
+      "evidence": "TME调节可改善免疫治疗反应",
+      "domain": "免疫治疗",
+      "confidence": 0.70
+    },
+    {
+      "head": "双靶点CAR-T",
+      "relation": "在前列腺癌中",
+      "tail": "同时靶向PSMA和STEAP1的CAR-T正在研究",
+      "source": "细胞治疗研究",
+      "evidence": "双靶点CAR-T可能提高疗效",
+      "domain": "免疫治疗",
+      "confidence": 0.68
+    },
+    {
+      "head": "表观遗传联合治疗",
+      "relation": "在前列腺癌中",
+      "tail": "HDAC抑制剂+ARPi、EZH2抑制剂+ARPi等联合",
+      "source": "表观遗传研究",
+      "evidence": "表观遗传联合是新兴方向",
+      "domain": "靶向治疗",
+      "confidence": 0.70
+    },
+    {
+      "head": "人工智能在前列腺癌中应用",
+      "relation": "方向",
+      "tail": "AI辅助MRI诊断、Gleason评分、预后预测",
+      "source": "医疗AI研究",
+      "evidence": "AI是提高诊断和预后准确性的工具",
+      "domain": "前列腺癌生物标志物与分期评估",
+      "confidence": 0.78
+    },
+    {
+      "head": "多组学整合分析",
+      "relation": "在前列腺癌中",
+      "tail": "基因组+转录组+蛋白组整合提高精准诊疗",
+      "source": "多组学研究",
+      "evidence": "多组学是精准医学基础",
+      "domain": "前列腺癌生物标志物与分期评估",
+      "confidence": 0.80
+    }
+  ]
+}

@@ -1,0 +1,468 @@
+{
+  "triplets": [
+    {
+      "head": "PROfound研究",
+      "relation": "研究设计",
+      "tail": "Olaparib vs 新型内分泌治疗，用于HRR基因突变mCRPC",
+      "source": "PROfound / NCT02987543",
+      "evidence": "III期随机对照试验",
+      "domain": "治疗指南",
+      "confidence": 0.98,
+      "pmid": "31538254"
+    },
+    {
+      "head": "PROfound研究",
+      "relation": "主要结果",
+      "tail": "BRCA1/2突变亚组：奥拉帕利PFS 7.4个月 vs 恩扎卢胺/阿比特龙3.6个月",
+      "source": "NEJM 2019 / PROfound研究",
+      "evidence": "PROfound改变PARP抑制剂在mCRPC中的地位",
+      "domain": "治疗指南",
+      "confidence": 0.98,
+      "pmid": "31538254"
+    },
+    {
+      "head": "TRITON2研究",
+      "relation": "研究设计",
+      "tail": "Rucaparib治疗BRCA1/2突变mCRPC",
+      "source": "TRITON2 / NCT02952534",
+      "evidence": "II期单臂临床试验",
+      "domain": "治疗指南",
+      "confidence": 0.9,
+      "pmid": "33216757"
+    },
+    {
+      "head": "TRITON2研究",
+      "relation": "主要结果",
+      "tail": "BRCA1/2突变患者ORR 43.5%(胚系）/43.9%(体系）",
+      "source": "TRITON2研究",
+      "evidence": "Rucaparib获FDA批准mCRPC适应证",
+      "domain": "治疗指南",
+      "confidence": 0.9,
+      "pmid": "33216757"
+    },
+    {
+      "head": "TRITON3研究",
+      "relation": "研究设计",
+      "tail": "Rucaparib vs 医生选择治疗，用于BRCA突变mCRPC一线",
+      "source": "TRITON3 / NCT02975934",
+      "evidence": "III期随机对照试验",
+      "domain": "治疗指南",
+      "confidence": 0.88
+    },
+    {
+      "head": "TRITON3研究",
+      "relation": "主要结果",
+      "tail": "Rucaparib显著改善PFS（中位PFS 10.2个月 vs 6.4个月）",
+      "source": "TRITON3研究 / ASCO GU 2023",
+      "evidence": "Rucaparib在BRCA突变mCRPC一线有效",
+      "domain": "治疗指南",
+      "confidence": 0.88
+    },
+    {
+      "head": "GALAHAD研究",
+      "relation": "研究设计",
+      "tail": "Niraparib治疗HRR突变mCRPC",
+      "source": "GALAHAD / NCT02854436",
+      "evidence": "II期单臂临床试验",
+      "domain": "治疗指南",
+      "confidence": 0.85
+    },
+    {
+      "head": "GALAHAD研究",
+      "relation": "主要结果",
+      "tail": "BRCA1/2突变患者ORR 34%",
+      "source": "GALAHAD研究",
+      "evidence": "Niraparib有抗肿瘤活性",
+      "domain": "治疗指南",
+      "confidence": 0.85
+    },
+    {
+      "head": "TALAPRO-1研究",
+      "relation": "研究设计",
+      "tail": "Talazoparib治疗HRR突变mCRPC",
+      "source": "TALAPRO-1 / NCT03148795",
+      "evidence": "II期单臂临床试验",
+      "domain": "治疗指南",
+      "confidence": 0.88
+    },
+    {
+      "head": "TALAPRO-1研究",
+      "relation": "主要结果",
+      "tail": "HRR突变患者ORR 28.6%",
+      "source": "TALAPRO-1研究",
+      "evidence": "Talazoparib有抗肿瘤活性",
+      "domain": "治疗指南",
+      "confidence": 0.88
+    },
+    {
+      "head": "TALAPRO-2研究",
+      "relation": "研究设计",
+      "tail": "Talazoparib+恩扎卢胺 vs 恩扎卢胺，用于初治mHSPC/mCRPC",
+      "source": "TALAPRO-2 / NCT03395197",
+      "evidence": "III期随机对照试验",
+      "domain": "治疗指南",
+      "confidence": 0.9
+    },
+    {
+      "head": "TALAPRO-2研究",
+      "relation": "主要结果",
+      "tail": "Talazoparib+恩扎卢胺显著改善PFS和OS",
+      "source": "TALAPRO-2研究 / ASCO GU 2023",
+      "evidence": "PARPi+ARPi联合是未来方向",
+      "domain": "治疗指南",
+      "confidence": 0.9
+    },
+    {
+      "head": "MAGNITUDE研究",
+      "relation": "研究设计",
+      "tail": "Niraparib+阿比特龙 vs 阿比特龙，用于初治mHSPC",
+      "source": "MAGNITUDE / NCT03748631",
+      "evidence": "III期随机对照试验",
+      "domain": "治疗指南",
+      "confidence": 0.9
+    },
+    {
+      "head": "MAGNITUDE研究",
+      "relation": "主要结果",
+      "tail": "BRCA1/2突变亚组：Niraparib+阿比特龙显著改善PFS",
+      "source": "MAGNITUDE研究 / ASCO GU 2023",
+      "evidence": "PARPi+ARPi联合在初治mHSPC有效",
+      "domain": "治疗指南",
+      "confidence": 0.9
+    },
+    {
+      "head": "PROPEL研究",
+      "relation": "研究设计",
+      "tail": "Olaparib+阿比特龙 vs 安慰剂+阿比特龙，用于初治mHSPC",
+      "source": "PROPEL / NCT01972217",
+      "evidence": "III期随机对照试验",
+      "domain": "治疗指南",
+      "confidence": 0.9
+    },
+    {
+      "head": "PROPEL研究",
+      "relation": "主要结果",
+      "tail": "Olaparib+阿比特龙显著改善PFS（HR=0.66），不考虑HRR状态",
+      "source": "PROPEL研究 / NEJM 2022",
+      "evidence": "PARPi+ARPi联合不限HRR状态",
+      "domain": "治疗指南",
+      "confidence": 0.9,
+      "pmid": "35443151"
+    },
+    {
+      "head": "LATITUDE研究",
+      "relation": "研究设计",
+      "tail": "阿比特龙+泼尼松 vs 安慰剂+泼尼松，用于初治高危mHSPC",
+      "source": "LATITUDE / NCT01715285",
+      "evidence": "III期随机对照试验",
+      "domain": "治疗指南",
+      "confidence": 0.95,
+      "pmid": "28501739"
+    },
+    {
+      "head": "LATITUDE研究",
+      "relation": "主要结果",
+      "tail": "阿比特龙组中位OS 34.7个月 vs 安慰剂30.3个月",
+      "source": "LATITUDE研究",
+      "evidence": "阿比特龙mHSPC适应证获批",
+      "domain": "治疗指南",
+      "confidence": 0.95,
+      "pmid": "28501739"
+    },
+    {
+      "head": "ARCHES研究",
+      "relation": "研究设计",
+      "tail": "恩扎卢胺+ADT vs 安慰剂+ADT，用于mHSPC",
+      "source": "ARCHES / NCT02677829",
+      "evidence": "III期随机对照试验",
+      "domain": "治疗指南",
+      "confidence": 0.95
+    },
+    {
+      "head": "ARCHES研究",
+      "relation": "主要结果",
+      "tail": "恩扎卢胺组放射学PFS风险降低61%",
+      "source": "ARCHES研究 / FDA批准文献",
+      "evidence": "恩扎卢胺mHSPC适应证获批",
+      "domain": "治疗指南",
+      "confidence": 0.95
+    },
+    {
+      "head": "TITAN研究",
+      "relation": "研究设计",
+      "tail": "阿帕他胺+ADT vs 安慰剂+ADT，用于mHSPC",
+      "source": "TITAN / NCT02796869",
+      "evidence": "III期随机对照试验",
+      "domain": "治疗指南",
+      "confidence": 0.95,
+      "pmid": "30951528"
+    },
+    {
+      "head": "TITAN研究",
+      "relation": "主要结果",
+      "tail": "阿帕他胺组中位OS未达到 vs 安慰剂34.7个月",
+      "source": "TITAN研究 / NEJM 2019",
+      "evidence": "阿帕他胺mHSPC适应证获批",
+      "domain": "治疗指南",
+      "confidence": 0.95,
+      "pmid": "30951528"
+    },
+    {
+      "head": "ARASENS研究",
+      "relation": "研究设计",
+      "tail": "达罗他胺+ADT+多西他赛 vs ADT+多西他赛，用于mHSPC",
+      "source": "ARASENS / NCT02799644",
+      "evidence": "III期随机对照试验",
+      "domain": "治疗指南",
+      "confidence": 0.95
+    },
+    {
+      "head": "ARASENS研究",
+      "relation": "主要结果",
+      "tail": "达罗他胺组中位OS显著改善（HR=0.68）",
+      "source": "ARASENS研究 / NEJM 2022",
+      "evidence": "达罗他胺mHSPC适应证获批",
+      "domain": "治疗指南",
+      "confidence": 0.95,
+      "pmid": "35526105"
+    },
+    {
+      "head": "SPARTAN研究",
+      "relation": "研究设计",
+      "tail": "阿帕他胺 vs 安慰剂，用于nmCRPC",
+      "source": "SPARTAN / NCT01946204",
+      "evidence": "III期随机对照试验",
+      "domain": "治疗指南",
+      "confidence": 0.95,
+      "pmid": "30701579"
+    },
+    {
+      "head": "SPARTAN研究",
+      "relation": "主要结果",
+      "tail": "阿帕他胺组中位MFS 40.5个月 vs 安慰剂16.2个月",
+      "source": "SPARTAN研究",
+      "evidence": "阿帕他胺nmCRPC适应证获批",
+      "domain": "治疗指南",
+      "confidence": 0.95,
+      "pmid": "30701579"
+    },
+    {
+      "head": "ARAMIS研究",
+      "relation": "研究设计",
+      "tail": "达罗他胺 vs 安慰剂，用于nmCRPC",
+      "source": "ARAMIS / NCT02200614",
+      "evidence": "III期随机对照试验",
+      "domain": "治疗指南",
+      "confidence": 0.95
+    },
+    {
+      "head": "ARAMIS研究",
+      "relation": "主要结果",
+      "tail": "达罗他胺组中位MFS未达到 vs 安慰剂18.4个月",
+      "source": "ARAMIS研究 / NEJM 2019",
+      "evidence": "达罗他胺nmCRPC适应证获批",
+      "domain": "治疗指南",
+      "confidence": 0.95,
+      "pmid": "30701578"
+    },
+    {
+      "head": "PROSPER研究",
+      "relation": "研究设计",
+      "tail": "恩扎卢胺 vs 安慰剂，用于nmCRPC",
+      "source": "PROSPER / NCT02003924",
+      "evidence": "III期随机对照试验",
+      "domain": "治疗指南",
+      "confidence": 0.95
+    },
+    {
+      "head": "PROSPER研究",
+      "relation": "主要结果",
+      "tail": "恩扎卢胺组中位MFS 36.6个月 vs 安慰剂14.7个月",
+      "source": "PROSPER研究 / NEJM 2018",
+      "evidence": "恩扎卢胺nmCRPC适应证获批",
+      "domain": "治疗指南",
+      "confidence": 0.95,
+      "pmid": "30280650"
+    },
+    {
+      "head": "CHAARTED研究",
+      "relation": "研究设计",
+      "tail": "ADT+多西他赛 vs ADT，用于mHSPC",
+      "source": "CHAARTED / NCT00309985",
+      "evidence": "III期随机对照试验",
+      "domain": "治疗指南",
+      "confidence": 0.95,
+      "pmid": "24963574"
+    },
+    {
+      "head": "CHAARTED研究",
+      "relation": "主要结果",
+      "tail": "高瘤负荷组：ADT+多西他赛中位OS 57.6个月 vs ADT 44.0个月",
+      "source": "CHAARTED研究",
+      "evidence": "ADT+多西他赛成为高瘤负荷mHSPC标准",
+      "domain": "治疗指南",
+      "confidence": 0.95,
+      "pmid": "24963574"
+    },
+    {
+      "head": "STAMPEDE研究",
+      "relation": "研究设计",
+      "tail": "ADT+多西他赛或阿比特龙 vs ADT，用于mHSPC",
+      "source": "STAMPEDE / NCT00268476",
+      "evidence": "多臂多阶段平台临床试验",
+      "domain": "治疗指南",
+      "confidence": 0.95,
+      "pmid": "28031182"
+    },
+    {
+      "head": "STAMPEDE研究",
+      "relation": "主要结果",
+      "tail": "ADT+多西他赛显著改善OS；ADT+阿比特龙也显著改善OS",
+      "source": "STAMPEDE研究 / Lancet 2016",
+      "evidence": "多重联合方案在mHSPC中有效",
+      "domain": "治疗指南",
+      "confidence": 0.95,
+      "pmid": "28031182"
+    },
+    {
+      "head": "VISION(ALS ASM-PCA)研究",
+      "relation": "研究设计",
+      "tail": "177Lu-PSMA-617 vs 标准治疗，用于PSMA阳性mCRPC",
+      "source": "VISION / NCT03511664",
+      "evidence": "III期随机对照试验",
+      "domain": "治疗指南",
+      "confidence": 0.95,
+      "pmid": "35263599"
+    },
+    {
+      "head": "VISION研究",
+      "relation": "主要结果",
+      "tail": "177Lu-PSMA-617组中位OS 15.3个月 vs 标准治疗11.3个月",
+      "source": "VISION研究 / NEJM 2021",
+      "evidence": "177Lu-PSMA-617获FDA批准mCRPC适应证",
+      "domain": "治疗指南",
+      "confidence": 0.95,
+      "pmid": "35263599"
+    },
+    {
+      "head": "ALSYMPCA研究",
+      "relation": "研究设计",
+      "tail": "223Ra(镭-223) vs 安慰剂，用于有症状骨转移mCRPC",
+      "source": "ALSYMPCA / NCT00699751",
+      "evidence": "III期随机对照试验",
+      "domain": "治疗指南",
+      "confidence": 0.95,
+      "pmid": "23020157"
+    },
+    {
+      "head": "ALSYMPCA研究",
+      "relation": "主要结果",
+      "tail": "223Ra组中位OS 14.9个月 vs 安慰剂11.3个月",
+      "source": "ALSYMPCA研究 / NEJM 2013",
+      "evidence": "223Ra获FDA批准mCRPC骨转移适应证",
+      "domain": "治疗指南",
+      "confidence": 0.95,
+      "pmid": "23020157"
+    },
+    {
+      "head": "COU-AA-302研究",
+      "relation": "研究设计",
+      "tail": "阿比特龙+泼尼松 vs 安慰剂+泼尼松，用于化疗前mCRPC",
+      "source": "COU-AA-302 / NCT00881746",
+      "evidence": "III期随机对照试验",
+      "domain": "治疗指南",
+      "confidence": 0.95,
+      "pmid": "23596017"
+    },
+    {
+      "head": "COU-AA-302研究",
+      "relation": "主要结果",
+      "tail": "阿比特龙组中位OS 34.7个月 vs 安慰剂30.3个月",
+      "source": "COU-AA-302研究",
+      "evidence": "阿比特龙mCRPC适应证获批",
+      "domain": "治疗指南",
+      "confidence": 0.95,
+      "pmid": "23596017"
+    },
+    {
+      "head": "COU-AA-301研究",
+      "relation": "研究设计",
+      "tail": "阿比特龙+泼尼松 vs 安慰剂+泼尼松，用于多西他赛化疗后mCRPC",
+      "source": "COU-AA-301 / NCT00638690",
+      "evidence": "III期随机对照试验",
+      "domain": "治疗指南",
+      "confidence": 0.95,
+      "pmid": "23169364"
+    },
+    {
+      "head": "COU-AA-301研究",
+      "relation": "主要结果",
+      "tail": "阿比特龙组中位OS 15.8个月 vs 安慰剂11.2个月",
+      "source": "COU-AA-301研究",
+      "evidence": "阿比特龙mCRPC后线适应证获批",
+      "domain": "治疗指南",
+      "confidence": 0.95,
+      "pmid": "23169364"
+    },
+    {
+      "head": "AFFIRM研究",
+      "relation": "研究设计",
+      "tail": "恩扎卢胺 vs 安慰剂，用于化疗后mCRPC",
+      "source": "AFFIRM / NCT00974311",
+      "evidence": "III期随机对照试验",
+      "domain": "治疗指南",
+      "confidence": 0.95,
+      "pmid": "22801012"
+    },
+    {
+      "head": "AFFIRM研究",
+      "relation": "主要结果",
+      "tail": "恩扎卢胺组中位OS 18.4个月 vs 安慰剂13.6个月",
+      "source": "AFFIRM研究 / NEJM 2012",
+      "evidence": "恩扎卢胺mCRPC适应证获批",
+      "domain": "治疗指南",
+      "confidence": 0.95,
+      "pmid": "22801012"
+    },
+    {
+      "head": "PREVAIL研究",
+      "relation": "研究设计",
+      "tail": "恩扎卢胺 vs 安慰剂，用于化疗前mCRPC",
+      "source": "PREVAIL / NCT01212991",
+      "evidence": "III期随机对照试验",
+      "domain": "治疗指南",
+      "confidence": 0.95,
+      "pmid": "25184444"
+    },
+    {
+      "head": "PREVAIL研究",
+      "relation": "主要结果",
+      "tail": "恩扎卢胺组中位OS未达到 vs 安慰剂低于预期",
+      "source": "PREVAIL研究 / NEJM 2014",
+      "evidence": "恩扎卢胺mCRPC一线适应证获批",
+      "domain": "治疗指南",
+      "confidence": 0.95,
+      "pmid": "25184444"
+    },
+    {
+      "head": "TAX-327研究",
+      "relation": "研究设计",
+      "tail": "多西他赛+泼尼松 vs 米托蒽醌+泼尼松 vs 泼尼松，用于mCRPC",
+      "source": "TAX-327 / NCT00049665",
+      "evidence": "III期随机对照试验",
+      "domain": "治疗指南",
+      "confidence": 0.95,
+      "pmid": "12954842"
+    },
+    {
+      "head": "TAX-327研究",
+      "relation": "主要结果",
+      "tail": "多西他赛组中位OS 18.9个月 vs 米托蒽醌16.5个月 vs 泼尼松16.3个月",
+      "source": "TAX-327研究 / NEJM 2004",
+      "evidence": "多西他赛成为mCRPC标准化疗",
+      "domain": "治疗指南",
+      "confidence": 0.95,
+      "pmid": "12954842"
+    }
+  ]
+}

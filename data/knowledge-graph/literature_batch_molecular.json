@@ -1,0 +1,402 @@
+{
+  "triplets": [
+    {
+      "head": "前列腺特异性抗原(PSA)",
+      "relation": "定义",
+      "tail": "由前列腺上皮细胞分泌的丝氨酸蛋白酶(kallikrein-3)",
+      "source": "临床检验操作规程 / 前列腺癌诊疗指南",
+      "evidence": "PSA是前列腺癌最重要的血清标志物",
+      "domain": "前列腺癌生物标志物与分期评估",
+      "confidence": 0.98
+    },
+    {
+      "head": "PSA",
+      "relation": "正常值",
+      "tail": "≤4ng/ml（但4-10ng/ml灰区需结合其他指标）",
+      "source": "NCCN前列腺癌指南2025 / CSCO指南2024",
+      "evidence": "PSA>10ng/ml高度提示前列腺癌",
+      "domain": "前列腺癌生物标志物与分期评估",
+      "confidence": 0.95
+    },
+    {
+      "head": "fPSA/总PSA比值",
+      "relation": "临床意义",
+      "tail": "<0.15提示前列腺癌风险增加",
+      "source": "CSCO前列腺癌诊疗指南2024",
+      "evidence": "fPSA比值有助于PSA灰区决策",
+      "domain": "前列腺癌生物标志物与分期评估",
+      "confidence": 0.92
+    },
+    {
+      "head": "前列腺健康指数(PHI)",
+      "relation": "计算公式",
+      "tail": "(p2PSA/fPSA)×√PSA",
+      "source": "CSCO前列腺癌诊疗指南2024",
+      "evidence": "PHI比PSA更准确预测csPCa",
+      "domain": "前列腺癌生物标志物与分期评估",
+      "confidence": 0.9
+    },
+    {
+      "head": "PSA密度",
+      "relation": "临床意义",
+      "tail": ">0.15与csPCa风险增加相关",
+      "source": "CSCO前列腺癌诊疗指南2024 / NCCN指南2025",
+      "evidence": "PSA密度是穿刺决策重要参考",
+      "domain": "前列腺癌生物标志物与分期评估",
+      "confidence": 0.92
+    },
+    {
+      "head": "BRCA1/2突变",
+      "relation": "在前列腺癌中",
+      "tail": "约10-15% mCRPC存在BRCA1/2突变",
+      "source": "CSCO指南2024 / PROfound研究",
+      "evidence": "BRCA突变提示PARP抑制剂敏感",
+      "domain": "前列腺癌生物标志物与分期评估",
+      "confidence": 0.95,
+      "pmid": "31538254"
+    },
+    {
+      "head": "HRR(同源重组修复)基因突变",
+      "relation": "在mCRPC中",
+      "tail": "约20-30% mCRPC存在HRR基因突变",
+      "source": "PROfound研究 / TRITON2研究",
+      "evidence": "HRR突变是PARP抑制剂疗效预测标志物",
+      "domain": "前列腺癌生物标志物与分期评估",
+      "confidence": 0.92,
+      "pmid": "31538254"
+    },
+    {
+      "head": "ATM突变",
+      "relation": "在前列腺癌中",
+      "tail": "约5-7% mCRPC存在ATM突变",
+      "source": "PROfound研究",
+      "evidence": "ATM突变对PARP抑制剂可能敏感",
+      "domain": "前列腺癌生物标志物与分期评估",
+      "confidence": 0.88
+    },
+    {
+      "head": "PALB2突变",
+      "relation": "在前列腺癌中",
+      "tail": "约2-3% mCRPC存在PALB2突变",
+      "source": "临床研究",
+      "evidence": "PALB2突变提示HRR缺陷",
+      "domain": "前列腺癌生物标志物与分期评估",
+      "confidence": 0.85
+    },
+    {
+      "head": "AR-V7",
+      "relation": "临床意义",
+      "tail": "AR剪接变异体7，提示对阿比特龙/恩扎卢胺耐药",
+      "source": "CSCO指南2024 / 临床研究",
+      "evidence": "AR-V7是AR通路靶向治疗耐药标志物",
+      "domain": "前列腺癌生物标志物与分期评估",
+      "confidence": 0.92
+    },
+    {
+      "head": "PTEN缺失",
+      "relation": "在前列腺癌中",
+      "tail": "约30-50% mCRPC存在PTEN缺失/突变",
+      "source": "临床研究 / TCGA",
+      "evidence": "PTEN缺失与不良预后相关",
+      "domain": "前列腺癌生物标志物与分期评估",
+      "confidence": 0.9
+    },
+    {
+      "head": "PIK3CA突变",
+      "relation": "在前列腺癌中",
+      "tail": "约10-15% mCRPC存在PIK3CA突变",
+      "source": "临床研究 / TCGA",
+      "evidence": "PI3K通路异常是耐药机制",
+      "domain": "前列腺癌生物标志物与分期评估",
+      "confidence": 0.88
+    },
+    {
+      "head": "TP53突变",
+      "relation": "在前列腺癌中",
+      "tail": "约20-30% mCRPC存在TP53突变",
+      "source": "临床研究 / TCGA",
+      "evidence": "TP53突变提示预后差",
+      "domain": "前列腺癌生物标志物与分期评估",
+      "confidence": 0.9
+    },
+    {
+      "head": "RB1缺失",
+      "relation": "在前列腺癌中",
+      "tail": "约20-30% mCRPC存在RB1缺失",
+      "source": "临床研究",
+      "evidence": "RB1缺失与神经内分泌分化相关",
+      "domain": "前列腺癌生物标志物与分期评估",
+      "confidence": 0.88
+    },
+    {
+      "head": "PSMA(前列腺特异性膜抗原)",
+      "relation": "临床意义",
+      "tail": "前列腺癌细胞高表达，是诊断和治疗靶点",
+      "source": "NCCN指南2025 / FDA批准文献",
+      "evidence": "PSMA引导PET成像和靶向RDT",
+      "domain": "前列腺癌生物标志物与分期评估",
+      "confidence": 0.98
+    },
+    {
+      "head": "PSMA表达",
+      "relation": "与预后",
+      "tail": "PSMA高表达与高Gleason评分、高分期、不良预后相关",
+      "source": "临床研究",
+      "evidence": "PSMA是预后标志物和靶点",
+      "domain": "前列腺癌生物标志物与分期评估",
+      "confidence": 0.88
+    },
+    {
+      "head": "神经内分泌分化",
+      "relation": "产生机制",
+      "tail": "长期ADT后去分化，产生NEPC(神经内分泌前列腺癌）",
+      "source": "CSCO指南2024",
+      "evidence": "NEPC预后极差，需特殊治疗",
+      "domain": "前列腺癌生物标志物与分期评估",
+      "confidence": 0.9
+    },
+    {
+      "head": "嗜铬粒蛋白A(CgA)",
+      "relation": "临床意义",
+      "tail": "神经内分泌分化标志物，NEPC患者可升高",
+      "source": "临床研究",
+      "evidence": "CgA辅助诊断NEPC",
+      "domain": "前列腺癌生物标志物与分期评估",
+      "confidence": 0.85
+    },
+    {
+      "head": "Ki-67",
+      "relation": "在前列腺癌中",
+      "tail": "细胞增殖标志物，高Ki-67提示高增殖活性",
+      "source": "临床病理研究",
+      "evidence": "Ki-67与Gleason评分和预后相关",
+      "domain": "前列腺癌生物标志物与分期评估",
+      "confidence": 0.88
+    },
+    {
+      "head": "p53",
+      "relation": "在前列腺癌中",
+      "tail": "p53过表达提示TP53突变，预后差",
+      "source": "临床病理研究",
+      "evidence": "p53是重要预后标志物",
+      "domain": "前列腺癌生物标志物与分期评估",
+      "confidence": 0.88
+    },
+    {
+      "head": "AR(雄激素受体)表达",
+      "relation": "临床意义",
+      "tail": "AR过表达是前列腺癌经典特征",
+      "source": "基础医学研究",
+      "evidence": "AR是内分泌治疗靶点",
+      "domain": "前列腺癌生物标志物与分期评估",
+      "confidence": 0.95
+    },
+    {
+      "head": "ERG融合",
+      "relation": "在前列腺癌中",
+      "tail": "约40-50%前列腺腺癌存在TMPRSS2-ERG融合",
+      "source": "TCGA / 分子病理研究",
+      "evidence": "ERG融合是前列腺癌分子特征",
+      "domain": "前列腺癌生物标志物与分期评估",
+      "confidence": 0.9
+    },
+    {
+      "head": "PCA3(前列腺癌抗原3)",
+      "relation": "临床意义",
+      "tail": "尿液PCA3评分辅助诊断csPCa",
+      "source": "CSCO指南2024",
+      "evidence": "PCA3是尿液分子标志物",
+      "domain": "前列腺癌生物标志物与分期评估",
+      "confidence": 0.85
+    },
+    {
+      "head": "STHLM3模型",
+      "relation": "应用",
+      "tail": "结合血液标志物和多基因模型预测csPCa",
+      "source": "临床研究",
+      "evidence": "STHLM3可辅助穿刺决策",
+      "domain": "前列腺癌生物标志物与分期评估",
+      "confidence": 0.85
+    },
+    {
+      "head": "游离PSA(fPSA)",
+      "relation": "临床意义",
+      "tail": "fPSA降低提示前列腺癌风险增加",
+      "source": "临床检验操作规程",
+      "evidence": "fPSA是PSA灰区补充指标",
+      "domain": "前列腺癌生物标志物与分期评估",
+      "confidence": 0.92
+    },
+    {
+      "head": "睾酮",
+      "relation": "临床意义",
+      "tail": "去势水平定义为<50ng/dL(<1.7nmol/L)",
+      "source": "CSCO指南2024 / NCCN指南2025",
+      "evidence": "睾酮水平是去势状态判断标准",
+      "domain": "前列腺癌生物标志物与分期评估",
+      "confidence": 0.98
+    },
+    {
+      "head": "碱性磷酸酶(ALP)",
+      "relation": "临床意义",
+      "tail": "ALP升高提示骨转移可能",
+      "source": "临床检验操作规程",
+      "evidence": "ALP是骨转移替代标志物",
+      "domain": "前列腺癌生物标志物与分期评估",
+      "confidence": 0.9
+    },
+    {
+      "head": "乳酸脱氢酶(LDH)",
+      "relation": "临床意义",
+      "tail": "LDH升高提示预后差，可能内脏转移",
+      "source": "临床检验操作规程",
+      "evidence": "LDH是预后标志物",
+      "domain": "前列腺癌生物标志物与分期评估",
+      "confidence": 0.85
+    },
+    {
+      "head": "血红蛋白",
+      "relation": "临床意义",
+      "tail": "贫血提示晚期/CRPC/骨转移",
+      "source": "临床检验操作规程",
+      "evidence": "贫血是不良预后因素",
+      "domain": "前列腺癌生物标志物与分期评估",
+      "confidence": 0.88
+    },
+    {
+      "head": "Decipher基因组分类器",
+      "relation": "应用",
+      "tail": "22基因预测前列腺癌复发和转移风险",
+      "source": "Nature Reviews Urology / NCCN指南2025",
+      "evidence": "Decipher是精准医学工具",
+      "domain": "前列腺癌生物标志物与分期评估",
+      "confidence": 0.88
+    },
+    {
+      "head": "Decipher评分",
+      "relation": "解读",
+      "tail": "0-0.6低危，>0.6高危",
+      "source": "Decipher临床应用指南",
+      "evidence": "高分提示高转移风险",
+      "domain": "前列腺癌生物标志物与分期评估",
+      "confidence": 0.88
+    },
+    {
+      "head": "Prolaris(细胞周期进展评分)",
+      "relation": "应用",
+      "tail": "31个细胞周期基因表达预测生化复发",
+      "source": "临床研究",
+      "evidence": "Prolaris是基因组分类器",
+      "domain": "前列腺癌生物标志物与分期评估",
+      "confidence": 0.85
+    },
+    {
+      "head": "GPS(基因组前列腺癌评分)",
+      "relation": "应用",
+      "tail": "17个基因（12个肿瘤相关+5个参考）预测复发风险",
+      "source": "Oncotype DX临床研究",
+      "evidence": "GPS辅助主动监测决策",
+      "domain": "前列腺癌生物标志物与分期评估",
+      "confidence": 0.85
+    },
+    {
+      "head": "循环肿瘤细胞(CTCs)",
+      "relation": "临床意义",
+      "tail": "CTCs数量与mCRPC预后相关",
+      "source": "临床研究",
+      "evidence": "CTCs是液体活检指标",
+      "domain": "前列腺癌生物标志物与分期评估",
+      "confidence": 0.88
+    },
+    {
+      "head": "ctDNA",
+      "relation": "在前列腺癌中",
+      "tail": "ctDNA检测HRR突变、AR-V7突变等，指导精准治疗",
+      "source": "液体活检研究",
+      "evidence": "ctDNA是新兴分子标志物",
+      "domain": "前列腺癌生物标志物与分期评估",
+      "confidence": 0.88
+    },
+    {
+      "head": "外显子组测序",
+      "relation": "在mCRPC中",
+      "tail": "检测可靶向突变（BRCA、PALB2、ATM等）",
+      "source": "CSCO指南2024",
+      "evidence": "测序指导精准治疗",
+      "domain": "前列腺癌生物标志物与分期评估",
+      "confidence": 0.9
+    },
+    {
+      "head": "MSI-H/dMMR",
+      "relation": "在前列腺癌中",
+      "tail": "约1-3%前列腺腺癌存在MSI-H/dMMR",
+      "source": "KEYNOTE-158研究",
+      "evidence": "MSI-H/dMMR者可考虑PD-1抑制剂",
+      "domain": "前列腺癌生物标志物与分期评估",
+      "confidence": 0.82
+    },
+    {
+      "head": "NTRK融合",
+      "relation": "在前列腺癌中",
+      "tail": "极罕见（<0.5%），可用TRK抑制剂",
+      "source": "临床研究",
+      "evidence": "NTRK融合可用TRK抑制剂治疗",
+      "domain": "前列腺癌生物标志物与分期评估",
+      "confidence": 0.75
+    },
+    {
+      "head": "BREM1缺失",
+      "relation": "在前列腺癌中",
+      "tail": "约5-10% mCRPC存在BREM1缺失",
+      "source": "临床研究",
+      "evidence": "BREM1缺失提示PARP抑制剂可能敏感",
+      "domain": "前列腺癌生物标志物与分期评估",
+      "confidence": 0.8
+    },
+    {
+      "head": "CDK12突变",
+      "relation": "在前列腺癌中",
+      "tail": "约5-7% mCRPC存在CDK12突变",
+      "source": "临床研究 / TCGA",
+      "evidence": "CDK12突变可能提示免疫治疗应答",
+      "domain": "前列腺癌生物标志物与分期评估",
+      "confidence": 0.78
+    },
+    {
+      "head": "免疫评分",
+      "relation": "在前列腺癌中",
+      "tail": "CD3/CD8/TIM3等免疫标志物预测免疫微环境",
+      "source": "肿瘤免疫研究",
+      "evidence": "免疫评分预测免疫治疗疗效",
+      "domain": "前列腺癌生物标志物与分期评估",
+      "confidence": 0.75
+    },
+    {
+      "head": "FDG PET-CT",
+      "relation": "在前列腺癌中",
+      "tail": "大部分前列腺癌FDG低摄取，不适用常规检测",
+      "source": "NCCN指南2025",
+      "evidence": "FDG PET对前列腺癌敏感性低",
+      "domain": "前列腺癌生物标志物与分期评估",
+      "confidence": 0.85
+    },
+    {
+      "head": "胆碱C-11 PET-CT",
+      "relation": "应用",
+      "tail": "可用于PSA复发但常规影像阴性者",
+      "source": "NCCN指南2025",
+      "evidence": "胆碱PET是PSMA PET前可用替代",
+      "domain": "前列腺癌生物标志物与分期评估",
+      "confidence": 0.85
+    },
+    {
+      "head": "MRSI(磁共振波谱成像)",
+      "relation": "应用",
+      "tail": "(胆碱+多胺)/枸橼酸比值升高提示肿瘤",
+      "source": "多参数MRI技术",
+      "evidence": "MRSI是mpMRI组成部分",
+      "domain": "前列腺癌生物标志物与分期评估",
+      "confidence": 0.82
+    }
+  ]
+}

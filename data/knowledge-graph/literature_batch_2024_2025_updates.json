@@ -1,0 +1,307 @@
+{
+  "domain": "前列腺癌2024-2025年研究进展",
+  "version": "1.0.0",
+  "description": "前列腺癌2024-2025年最新研究进展知识三元组",
+  "triplets": [
+    {
+      "head": "177Lu-PSMA-617(Pluvicto)",
+      "relation": "FDA批准更新2025",
+      "tail": "FDA批准Pluvicto用于化疗前PSMA阳性mCRPC，标志着更早期使用",
+      "source": "FDA 2025年3月 / Novartis新闻稿",
+      "evidence": "PSMA RLT获益人群扩大",
+      "domain": "放射治疗",
+      "confidence": 0.95
+    },
+    {
+      "head": "PSMA RLT",
+      "relation": "新适应证探索",
+      "tail": "正在探索用于转移性激素敏感性前列腺癌(mHSPC)，7项II期随机研究进行中",
+      "source": "2025 UCSF-UCLA PSMA Conference",
+      "evidence": "PSMA RLT可能前移至更早期患者",
+      "domain": "放射治疗",
+      "confidence": 0.82
+    },
+    {
+      "head": "225Ac-PSMA RLT",
+      "relation": "研究数据",
+      "tail": "α粒子PSMA RLT，多中心真实世界研究显示安全有效",
+      "source": "Lancet Oncol 2024 / ACTGCRPC研究",
+      "evidence": "α粒子RLT可能优于β粒子",
+      "domain": "放射治疗",
+      "confidence": 0.85,
+      "pmid": "38232747"
+    },
+    {
+      "head": "达罗他胺(Darolutamide)",
+      "relation": "联合奥拉帕利",
+      "tail": "Darolutamide+奥拉帕利联合用于HRR突变mCRPC正在III期试验",
+      "source": "AROME-M3研究 / ASCO 2024",
+      "evidence": "ARPI+NHA+PARPi三药联合正在探索",
+      "domain": "靶向治疗",
+      "confidence": 0.80
+    },
+    {
+      "head": "阿帕他胺(Apalutamide)",
+      "relation": "mHSPC适应证",
+      "tail": "TITAN研究支持阿帕他胺+ADT用于mHSPC，OS和影像学PFS显著改善",
+      "source": "TITAN研究 / NCCN指南2025",
+      "evidence": "所有mHSPC可考虑ARPI+ADT",
+      "domain": "内分泌治疗",
+      "confidence": 0.95
+    },
+    {
+      "head": "恩扎卢胺(Enzalutamide)",
+      "relation": "nmCRPC适应证",
+      "tail": "PROSPER研究支持恩扎卢胺用于高危nmCRPC",
+      "source": "PROSPER研究 / NCCN指南2025",
+      "evidence": "ARPI延长nmCRPC患者生存",
+      "domain": "内分泌治疗",
+      "confidence": 0.95
+    },
+    {
+      "head": "瑞卢戈利安(Relugolix)",
+      "relation": "优势",
+      "tail": "口服GnRH拮抗剂，起效快、停药后恢复快、减少心血管风险",
+      "source": "HERO研究 / FDA批准",
+      "evidence": "口服ADT新选择",
+      "domain": "内分泌治疗",
+      "confidence": 0.90
+    },
+    {
+      "head": "奥拉帕利+阿比特龙",
+      "relation": "研究数据",
+      "tail": "PROpel研究，奥拉帕利+阿比特龙 vs 安慰剂+阿比特龙，用于一线mCRPC",
+      "source": "PROpel研究 / NEJM 2022",
+      "evidence": "联合方案改善PFS",
+      "domain": "靶向治疗",
+      "confidence": 0.90,
+      "pmid": "36136595"
+    },
+    {
+      "head": "尼拉帕利+阿比特龙",
+      "relation": "研究数据",
+      "tail": "MAGNITUDE研究，尼拉帕利+阿比特龙用于BRCA/HRR突变mCRPC",
+      "source": "MAGNITUDE研究 / JCO 2023",
+      "evidence": "BRCA突变患者获益显著",
+      "domain": "靶向治疗",
+      "confidence": 0.88,
+      "pmid": "36652354"
+    },
+    {
+      "head": "177Lu-PSMA-617",
+      "relation": "真实世界数据",
+      "tail": "真实世界ORR约40-50%，与VISION研究一致，安全性可控",
+      "source": "多中心真实世界研究",
+      "evidence": "PSMA RLT在临床实践中有效",
+      "domain": "放射治疗",
+      "confidence": 0.85
+    },
+    {
+      "head": "PSMA PET/CT",
+      "relation": "在分期中应用",
+      "tail": "68Ga-PSMA-11 PET/CT显著提高转移灶检出率，改变治疗决策",
+      "source": "OSPREY研究 / FDA批准",
+      "evidence": "PSMA PET是精准分期工具",
+      "domain": "诊断",
+      "confidence": 0.92
+    },
+    {
+      "head": "PSMA PET",
+      "relation": "在生化复发中应用",
+      "tail": "PSMA PET可检测传统影像学阴性的复发灶，指导补救性治疗",
+      "source": " Rowlandson等研究",
+      "evidence": "PSMA PET提高复发检出率",
+      "domain": "诊断",
+      "confidence": 0.90
+    },
+    {
+      "head": "根治性前列腺切除术",
+      "relation": "机器人手术",
+      "tail": "机器人辅助腹腔镜根治性前列腺切除术(RARP)是主流手术方式",
+      "source": "CSCO指南2024",
+      "evidence": "RARP出血少、恢复快",
+      "domain": "手术治疗",
+      "confidence": 0.95
+    },
+    {
+      "head": "近距离放疗",
+      "relation": "低剂量率(LDR)",
+      "tail": "I-125粒子永久植入，适用于低危至中危局限性前列腺癌",
+      "source": "CSCO指南2024",
+      "evidence": "LDR近距离放疗是根治性治疗选择",
+      "domain": "放射治疗",
+      "confidence": 0.95
+    },
+    {
+      "head": "SBRT(立体定向放疗)",
+      "relation": "在前列腺癌中",
+      "tail": "SBRT(5-7次分割)用于局限性前列腺癌，疗效与常规放疗相当",
+      "source": "HYPO-RT-PC研究",
+      "evidence": "大分割放疗是安全选择",
+      "domain": "放射治疗",
+      "confidence": 0.90
+    },
+    {
+      "head": "主动监测",
+      "relation": "入组标准",
+      "tail": "Gleason评分6分、PSA<10ng/mL、肿瘤负荷低",
+      "source": "NCCN指南2025",
+      "evidence": "低危患者可选择主动监测",
+      "domain": "诊断",
+      "confidence": 0.95
+    },
+    {
+      "head": "多西他赛",
+      "relation": "mHSPC适应证",
+      "tail": "CHAARTED研究，多西他赛+ADT用于高瘤负荷mHSPC",
+      "source": "CHAARTED研究 / STAMPEDE研究",
+      "evidence": "多西他赛延长mHSPC生存",
+      "domain": "化学治疗",
+      "confidence": 0.95
+    },
+    {
+      "head": "阿比特龙",
+      "relation": "mHSPC适应证",
+      "tail": "LATITUDE研究，阿比特龙+ADT用于高危mHSPC",
+      "source": "LATITUDE研究 / STAMPEDE研究",
+      "evidence": "阿比特龙延长高危mHSPC生存",
+      "domain": "内分泌治疗",
+      "confidence": 0.95
+    },
+    {
+      "head": "恩扎卢胺",
+      "relation": "mHSPC适应证",
+      "tail": "ARCHES研究，恩扎卢胺+ADT用于mHSPC",
+      "source": "ARCHES研究 / ENZAMET研究",
+      "evidence": "恩扎卢胺改善mHSPC预后",
+      "domain": "内分泌治疗",
+      "confidence": 0.95
+    },
+    {
+      "head": "骨改良药物",
+      "relation": "mCRPC骨转移",
+      "tail": "地舒单抗(Denosumab)或唑来膦酸预防SRE",
+      "source": "NCCN指南2025",
+      "evidence": "骨改良药是标准治疗",
+      "domain": "治疗并发症",
+      "confidence": 0.95
+    },
+    {
+      "head": "镭-223",
+      "relation": "适应证",
+      "tail": "用于有症状骨转移但无内脏转移的mCRPC",
+      "source": "ALSYMPCA研究 / FDA批准",
+      "evidence": "镭-223改善OS和QoL",
+      "domain": "放射治疗",
+      "confidence": 0.90
+    },
+    {
+      "head": "TP53突变",
+      "relation": "在前列腺癌中",
+      "tail": "TP53突变与前列腺癌不良预后相关，可能影响治疗反应",
+      "source": "基因组学研究",
+      "evidence": "TP53是预后标志物",
+      "domain": "生物标志物",
+      "confidence": 0.85
+    },
+    {
+      "head": "RB1缺失",
+      "relation": "在前列腺癌中",
+      "tail": "RB1缺失与AR耐药和神经内分泌分化相关",
+      "source": "分子生物学研究",
+      "evidence": "RB1是预后和治疗标志物",
+      "domain": "生物标志物",
+      "confidence": 0.85
+    },
+    {
+      "head": "PTEN缺失",
+      "relation": "在前列腺癌中",
+      "tail": "PTEN缺失激活PI3K/AKT通路，与不良预后相关",
+      "source": "分子生物学研究",
+      "evidence": "PTEN缺失可能预测PI3K抑制剂疗效",
+      "domain": "生物标志物",
+      "confidence": 0.82
+    },
+    {
+      "head": "AR-V7",
+      "relation": "检测方法",
+      "tail": "循环肿瘤细胞(CTC)检测AR-V7状态",
+      "source": "临床研究",
+      "evidence": "AR-V7阳性患者对ARPI反应差",
+      "domain": "生物标志物",
+      "confidence": 0.88
+    },
+    {
+      "head": "DDR基因检测",
+      "relation": "在前列腺癌中",
+      "tail": "BRCA1/2、ATM、PALB2等HRR基因检测指导PARP抑制剂使用",
+      "source": "NCCN/CSCO指南2025",
+      "evidence": "HRR基因检测是标准",
+      "domain": "生物标志物",
+      "confidence": 0.95
+    },
+    {
+      "head": "ctDNA检测",
+      "relation": "在前列腺癌中",
+      "tail": "液体活检ctDNA可检测基因变异，指导治疗选择",
+      "source": "临床研究",
+      "evidence": "ctDNA是组织活检补充",
+      "domain": "生物标志物",
+      "confidence": 0.82
+    },
+    {
+      "head": "前列腺健康指数(PHI)",
+      "relation": "诊断价值",
+      "tail": "PHI = (-2)proPSA / PSA^0.5，提高前列腺癌诊断特异性",
+      "source": "临床研究",
+      "evidence": "PHI减少不必要活检",
+      "domain": "诊断",
+      "confidence": 0.85
+    },
+    {
+      "head": "MRI融合靶向活检",
+      "relation": "临床应用",
+      "tail": "MRI-TRUS融合引导靶向活检提高 clinically significant PCa检出率",
+      "source": "临床实践",
+      "evidence": "靶向活检是标准",
+      "domain": "诊断",
+      "confidence": 0.92
+    },
+    {
+      "head": "PIRADS v2.1",
+      "relation": "评分系统",
+      "tail": "mpMRI评分1-5分，PIRADS≥3建议活检",
+      "source": "PI-RADS v2.1指南",
+      "evidence": "PIRADS标准化影像报告",
+      "domain": "诊断",
+      "confidence": 0.92
+    },
+    {
+      "head": "人工智能(AI)",
+      "relation": "在前列腺癌中",
+      "tail": "AI辅助MRI诊断、Gleason评分、预后预测",
+      "source": "医疗AI研究",
+      "evidence": "AI提高诊断一致性",
+      "domain": "诊断",
+      "confidence": 0.80
+    },
+    {
+      "head": "多学科诊疗(MDT)",
+      "relation": "在前列腺癌中",
+      "tail": "MDT改善前列腺癌患者预后和决策质量",
+      "source": "临床实践",
+      "evidence": "MDT是精准治疗基础",
+      "domain": "治疗策略",
+      "confidence": 0.88
+    },
+    {
+      "head": "寡转移前列腺癌",
+      "relation": "治疗策略",
+      "tail": "SBRT对寡转移灶进行根治性照射，可能延迟系统性治疗",
+      "source": "STOMP/Oligometastases研究",
+      "evidence": "寡转移灶局部治疗改善PFS",
+      "domain": "放射治疗",
+      "confidence": 0.85
+    }
+  ]
+}

@@ -1,0 +1,358 @@
+{
+  "domain": "前列腺癌流行病学与真实世界研究",
+  "version": "1.0.0",
+  "description": "前列腺癌流行病学与真实世界研究知识三元组",
+  "triplets": [
+    {
+      "head": "全球前列腺癌流行病学",
+      "relation": "发病率",
+      "tail": "2020年全球新发病例约141万，死亡约37.5万",
+      "source": "GLOBOCAN 2020 / IARC",
+      "evidence": "前列腺癌是男性第二大常见癌症",
+      "domain": "前列腺癌流行病学",
+      "confidence": 0.98
+    },
+    {
+      "head": "中国前列腺癌流行病学",
+      "relation": "发病率",
+      "tail": "2020年中国新发病例约11.5万，死亡约5.1万",
+      "source": "GLOBOCAN 2020 / 国家癌症中心",
+      "evidence": "中国前列腺癌发病率上升，城市高于农村",
+      "domain": "前列腺癌流行病学",
+      "confidence": 0.95
+    },
+    {
+      "head": "前列腺癌5年生存率",
+      "relation": "全球数据",
+      "tail": "局限期>99%，局部进展期约100%，远处转移约31%",
+      "source": "SEER数据库分析",
+      "evidence": "分期显著影响预后",
+      "domain": "前列腺癌流行病学",
+      "confidence": 0.95
+    },
+    {
+      "head": "前列腺癌年龄分布",
+      "relation": "特点",
+      "tail": "发病高峰65-75岁，80岁后略下降",
+      "source": "GLOBOCAN 2020 / SEER数据库",
+      "evidence": "年龄是前列腺癌最重要危险因素",
+      "domain": "前列腺癌流行病学",
+      "confidence": 0.98
+    },
+    {
+      "head": "前列腺癌种族差异",
+      "relation": "数据",
+      "tail": "非裔美国人发病率最高，亚裔最低",
+      "source": "SEER数据库分析",
+      "evidence": "种族差异可能与遗传和环境因素相关",
+      "domain": "前列腺癌流行病学",
+      "confidence": 0.92
+    },
+    {
+      "head": "中国前列腺癌趋势",
+      "relation": "变化",
+      "tail": "发病率快速上升，死亡率缓慢上升",
+      "source": "国家癌症中心统计数据",
+      "evidence": "生活方式西化、筛查普及是可能原因",
+      "domain": "前列腺癌流行病学",
+      "confidence": 0.90
+    },
+    {
+      "head": "前列腺癌家族史",
+      "relation": "风险",
+      "tail": "一级亲属患前列腺癌，本人风险增加2-3倍",
+      "source": "流行病学研究",
+      "evidence": "遗传因素在前列腺癌中起重要作用",
+      "domain": "前列腺癌流行病学",
+      "confidence": 0.95
+    },
+    {
+      "head": "BRCA1/2突变与前列腺癌",
+      "relation": "风险",
+      "tail": "BRCA2突变携带者终身前列腺癌风险约20-40%",
+      "source": "PROFOUND研究 / 临床研究",
+      "evidence": "BRCA突变是前列腺癌高危因素",
+      "domain": "前列腺癌流行病学",
+      "confidence": 0.95
+    },
+    {
+      "head": "前列腺癌地域分布",
+      "relation": "特点",
+      "tail": "北美、北欧、西欧最高，东亚、南亚较低",
+      "source": "GLOBOCAN 2020",
+      "evidence": "地域差异与遗传和环境因素相关",
+      "domain": "前列腺癌流行病学",
+      "confidence": 0.92
+    },
+    {
+      "head": "PSA筛查对预后的影响",
+      "relation": "数据",
+      "tail": "PSA筛查可降低约20-30%前列腺癌死亡率",
+      "source": "ERSPC研究 / PLCO研究",
+      "evidence": "筛查获益与过度诊断风险并存",
+      "domain": "前列腺癌流行病学",
+      "confidence": 0.90
+    },
+    {
+      "head": "前列腺癌手术量趋势",
+      "relation": "真实世界数据",
+      "tail": "机器人辅助腹腔镜前列腺切除术(RALP)比例>80%",
+      "source": "美国真实世界数据",
+      "evidence": "RALP已成为主流术式",
+      "domain": "前列腺癌流行病学",
+      "confidence": 0.88
+    },
+    {
+      "head": "mCRPC真实世界治疗模式",
+      "relation": "数据",
+      "tail": "新型内分泌→化疗→PARP抑制剂(如适用)的顺序常见",
+      "source": "真实世界研究",
+      "evidence": "真实世界治疗顺序与指南基本一致",
+      "domain": "前列腺癌流行病学",
+      "confidence": 0.85
+    },
+    {
+      "head": "前列腺癌术后生化复发率",
+      "relation": "数据",
+      "tail": "约27-53%患者术后5年内发生生化复发",
+      "source": "SEER数据库分析 / 临床研究",
+      "evidence": "生化复发危险度分层影响预后",
+      "domain": "前列腺癌流行病学",
+      "confidence": 0.90
+    },
+    {
+      "head": "前列腺癌放疗后复发率",
+      "relation": "数据",
+      "tail": "约20-40%患者放疗后5年内发生生化复发",
+      "source": "临床研究",
+      "evidence": "放疗后复发可挽救性手术或系统治疗",
+      "domain": "前列腺癌流行病学",
+      "confidence": 0.88
+    },
+    {
+      "head": "主动监测依从性",
+      "relation": "真实世界数据",
+      "tail": "约30-50%低危患者选择主动监测，依从性约70-80%",
+      "source": "真实世界研究",
+      "evidence": "主动监测在临床实践中应用增加",
+      "domain": "前列腺癌流行病学",
+      "confidence": 0.85
+    },
+    {
+      "head": "前列腺癌骨转移发生率",
+      "relation": "数据",
+      "tail": "约70-90% mCRPC患者发生骨转移",
+      "source": "临床研究 / SEER数据库",
+      "evidence": "骨转移是mCRPC主要并发症",
+      "domain": "前列腺癌流行病学",
+      "confidence": 0.95
+    },
+    {
+      "head": "镭-223真实世界应用",
+      "relation": "数据",
+      "tail": "真实世界中镭-223耐受性良好，中位治疗次数约4-5次",
+      "source": "真实世界研究 / REASSURE研究",
+      "evidence": "镭-223在真实世界安全有效",
+      "domain": "前列腺癌流行病学",
+      "confidence": 0.85
+    },
+    {
+      "head": "PARP抑制剂真实世界应用",
+      "relation": "数据",
+      "tail": "奥拉帕利在BRCA突变mCRPC中ORR约40-50%",
+      "source": "真实世界研究",
+      "evidence": "真实世界数据与临床试验一致",
+      "domain": "前列腺癌流行病学",
+      "confidence": 0.85
+    },
+    {
+      "head": "前列腺癌生存质量",
+      "relation": "影响因素",
+      "tail": "尿失禁、性功能障碍、疲劳是主要影响",
+      "source": "肿瘤幸存者研究",
+      "evidence": "治疗相关不良反应影响生活质量",
+      "domain": "前列腺癌流行病学",
+      "confidence": 0.90
+    },
+    {
+      "head": "前列腺癌经济负担",
+      "relation": "数据",
+      "tail": "中国前列腺癌人均治疗费用约5-10万元/年",
+      "source": "卫生经济学研究",
+      "evidence": "mCRPC治疗费用显著高于局限性前列腺癌",
+      "domain": "前列腺癌流行病学",
+      "confidence": 0.85
+    },
+    {
+      "head": "饮食习惯与前列腺癌",
+      "relation": "风险",
+      "tail": "高脂饮食、红肉摄入增加风险；番茄、豆制品可能降低风险",
+      "source": "流行病学研究",
+      "evidence": "饮食是前列腺癌可改变危险因素",
+      "domain": "前列腺癌流行病学",
+      "confidence": 0.80
+    },
+    {
+      "head": "肥胖与前列腺癌",
+      "relation": "关系",
+      "tail": "肥胖可能降低局限期风险，但增加进展和死亡风险",
+      "source": "流行病学研究 / meta分析",
+      "evidence": "肥胖与前列腺癌预后负相关",
+      "domain": "前列腺癌流行病学",
+      "confidence": 0.85
+    },
+    {
+      "head": "吸烟与前列腺癌",
+      "relation": "关系",
+      "tail": "吸烟增加前列腺癌死亡风险和骨转移风险",
+      "source": "流行病学研究",
+      "evidence": "吸烟是前列腺癌不良预后因素",
+      "domain": "前列腺癌流行病学",
+      "confidence": 0.88
+    },
+    {
+      "head": "体力活动与前列腺癌",
+      "relation": "关系",
+      "tail": "规律体力活动可降低进展和死亡风险",
+      "source": "流行病学研究",
+      "evidence": "运动是重要的生活方式干预",
+      "domain": "前列腺癌流行病学",
+      "confidence": 0.82
+    },
+    {
+      "head": "维生素E与前列腺癌",
+      "relation": "关系",
+      "tail": "维生素E补充不降低前列腺癌风险(SELECT研究)",
+      "source": "SELECT研究 / NEJM 2009",
+      "evidence": "维生素E补充无预防作用",
+      "domain": "前列腺癌流行病学",
+      "confidence": 0.90
+    },
+    {
+      "head": "硒与前列腺癌",
+      "relation": "关系",
+      "tail": "硒补充不降低前列腺癌风险(SELECT研究)",
+      "source": "SELECT研究 / JAMA 2009",
+      "evidence": "硒补充无预防作用",
+      "domain": "前列腺癌流行病学",
+      "confidence": 0.90
+    },
+    {
+      "head": "输精管结扎术与前列腺癌",
+      "relation": "关系",
+      "tail": "输精管结扎术与前列腺癌风险轻度增加相关(争议)",
+      "source": "meta分析",
+      "evidence": "关联较弱，临床意义不明",
+      "domain": "前列腺癌流行病学",
+      "confidence": 0.75
+    },
+    {
+      "head": "前列腺炎与前列腺癌",
+      "relation": "关系",
+      "tail": "慢性炎症可能促进前列腺癌发生(证据有限)",
+      "source": "基础研究 / 流行病学研究",
+      "evidence": "炎症与前列腺癌关联待明确",
+      "domain": "前列腺癌流行病学",
+      "confidence": 0.72
+    },
+    {
+      "head": "前列腺癌筛查争议",
+      "relation": "现状",
+      "tail": "USPSTF建议55-69岁个体化决策，不常规筛查≥70岁",
+      "source": "USPSTF 2024声明",
+      "evidence": "筛查获益与过度诊断风险需权衡",
+      "domain": "前列腺癌流行病学",
+      "confidence": 0.92
+    },
+    {
+      "head": "中国前列腺癌筛查现状",
+      "relation": "数据",
+      "tail": "筛查覆盖率约10-20%，远低于发达国家",
+      "source": "国家癌症中心",
+      "evidence": "提高筛查覆盖率是防控重点",
+      "domain": "前列腺癌流行病学",
+      "confidence": 0.88
+    },
+    {
+      "head": "前列腺癌多学科诊疗(MDT)",
+      "relation": "推荐",
+      "tail": "所有前列腺癌患者应经MDT讨论制定个体化方案",
+      "source": "CSCO指南2024 / NCCN指南2025",
+      "evidence": "MDT提高诊疗质量",
+      "domain": "前列腺癌流行病学",
+      "confidence": 0.95
+    },
+    {
+      "head": "前列腺癌支持治疗",
+      "relation": "内容",
+      "tail": "骨健康维护、心理支持、性康复、营养支持",
+      "source": "NCCN指南2025",
+      "evidence": "支持治疗贯穿全程管理",
+      "domain": "前列腺癌流行病学",
+      "confidence": 0.92
+    },
+    {
+      "head": "前列腺癌骨健康管理",
+      "relation": "措施",
+      "tail": "双膦酸盐或地舒单抗+钙/维生素D补充",
+      "source": "NCCN指南2025 / CSCO指南2024",
+      "evidence": "骨健康维护是mCRPC管理核心",
+      "domain": "前列腺癌流行病学",
+      "confidence": 0.95
+    },
+    {
+      "head": "地舒单抗",
+      "relation": "在前列腺癌中应用",
+      "tail": "预防骨相关事件(SRE)，每4周120mg SC",
+      "source": "NCCN指南2025 / 临床研究",
+      "evidence": "地舒单抗在骨健康管理中地位重要",
+      "domain": "前列腺癌流行病学",
+      "confidence": 0.92
+    },
+    {
+      "head": "双膦酸盐",
+      "relation": "在前列腺癌中应用",
+      "tail": "预防SRE，唑来膦酸4mg IV每3-4周",
+      "source": "NCCN指南2025",
+      "evidence": "双膦酸盐是骨健康管理经典药物",
+      "domain": "前列腺癌流行病学",
+      "confidence": 0.90
+    },
+    {
+      "head": "前列腺癌去势治疗不良反应",
+      "relation": "常见",
+      "tail": "潮热、性欲减退、勃起功能障碍、骨质疏松、代谢综合征",
+      "source": "NCCN指南2025 / 药物说明书",
+      "evidence": "ADT不良反应需积极管理",
+      "domain": "前列腺癌流行病学",
+      "confidence": 0.95
+    },
+    {
+      "head": "代谢紊乱与ADT",
+      "relation": "风险",
+      "tail": "ADT增加糖尿病、心血管疾病、代谢综合征风险",
+      "source": "临床研究 / 荟萃分析",
+      "evidence": "ADT患者需监测代谢指标",
+      "domain": "前列腺癌流行病学",
+      "confidence": 0.90
+    },
+    {
+      "head": "前列腺癌的基因检测",
+      "relation": "推荐",
+      "tail": "mCRPC患者建议行HRR基因panel检测",
+      "source": "CSCO指南2024 / NCCN指南2025",
+      "evidence": "基因检测指导PARP抑制剂使用",
+      "domain": "前列腺癌流行病学",
+      "confidence": 0.95
+    },
+    {
+      "head": "前列腺癌液体活检",
+      "relation": "应用",
+      "tail": "ctDNA检测HRR突变、AR-V7等，指导精准治疗",
+      "source": "真实世界研究 / 临床研究",
+      "evidence": "液体活检是组织活检的重要补充",
+      "domain": "前列腺癌流行病学",
+      "confidence": 0.85
+    }
+  ]
+}

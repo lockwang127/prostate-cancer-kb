@@ -1,0 +1,454 @@
+{
+  "triplets": [
+    {
+      "head": "转移性去势抵抗性前列腺癌(mCRPC)",
+      "relation": "一线治疗",
+      "tail": "新型内分泌治疗（阿比特龙、恩扎卢胺、阿帕他胺、达罗他胺）或PARP抑制剂（BRCA突变者）",
+      "source": "CSCO前列腺癌诊疗指南2024 / NCCN前列腺癌指南2025",
+      "evidence": "多种有效治疗选择，需根据患者特征和生物标志物选择",
+      "domain": "前列腺癌治疗方案",
+      "confidence": 0.95
+    },
+    {
+      "head": "阿比特龙",
+      "relation": "作用机制",
+      "tail": "CYP17A1抑制剂，阻断睾丸和肿瘤组织的雄激素合成",
+      "source": "药物说明书 / CSCO指南2024",
+      "evidence": "阿比特龙联合泼尼松用于mCRPC",
+      "domain": "内分泌治疗",
+      "confidence": 0.98
+    },
+    {
+      "head": "阿比特龙",
+      "relation": "用法用量",
+      "tail": "1000mg口服每日一次，联合泼尼松5mg每日两次",
+      "source": "药物说明书",
+      "evidence": "空腹或餐后服用均可",
+      "domain": "内分泌治疗",
+      "confidence": 0.98
+    },
+    {
+      "head": "恩扎卢胺",
+      "relation": "作用机制",
+      "tail": "强效雄激素受体抑制剂(ARSi)，阻断AR信号通路并促进受体降解",
+      "source": "药物说明书 / CSCO指南2024",
+      "evidence": "恩扎卢胺为第二代AR抑制剂",
+      "domain": "内分泌治疗",
+      "confidence": 0.98
+    },
+    {
+      "head": "恩扎卢胺",
+      "relation": "适应证",
+      "tail": "mHSPC、nmCRPC、mCRPC",
+      "source": "药物说明书 / NCCN指南2025",
+      "evidence": "恩扎卢胺适应证广泛",
+      "domain": "内分泌治疗",
+      "confidence": 0.95
+    },
+    {
+      "head": "阿帕他胺",
+      "relation": "适应证",
+      "tail": "nmCRPC和mHSPC",
+      "source": "药物说明书 / CSCO指南2024",
+      "evidence": "阿帕他胺对AR亲和力高",
+      "domain": "内分泌治疗",
+      "confidence": 0.95
+    },
+    {
+      "head": "阿帕他胺",
+      "relation": "疗效数据",
+      "tail": "SPARTAN研究：nmCRPC中位MFS 40.5个月 vs 安慰剂16.8个月",
+      "source": "SPARTAN研究 / FDA批准文献",
+      "evidence": "阿帕他胺显著延长nmCRPC无转移生存期",
+      "domain": "内分泌治疗",
+      "confidence": 0.95
+    },
+    {
+      "head": "达罗他胺",
+      "relation": "适应证",
+      "tail": "nmCRPC和mHSPC",
+      "source": "药物说明书 / CSCO指南2024",
+      "evidence": "达罗他胺血脑屏障穿透率低",
+      "domain": "内分泌治疗",
+      "confidence": 0.95
+    },
+    {
+      "head": "达罗他胺",
+      "relation": "疗效数据",
+      "tail": "ARAMIS研究：nmCRPC中位OS 达罗他胺组显著延长",
+      "source": "ARAMIS研究",
+      "evidence": "达罗他胺在nmCRPC中有效",
+      "domain": "内分泌治疗",
+      "confidence": 0.95
+    },
+    {
+      "head": "多西他赛",
+      "relation": "适应证",
+      "tail": "mCRPC一线化疗、mHSPC联合ADT",
+      "source": "CSCO前列腺癌诊疗指南2024",
+      "evidence": "多西他赛是mCRPC经典化疗药物",
+      "domain": "化学治疗",
+      "confidence": 0.95
+    },
+    {
+      "head": "多西他赛",
+      "relation": "用法用量",
+      "tail": "75mg/m²静脉滴注，每3周一次，联合泼尼松5mg每日两次",
+      "source": "CSCO指南2024 / 药物说明书",
+      "evidence": "标准多西他赛化疗方案",
+      "domain": "化学治疗",
+      "confidence": 0.95
+    },
+    {
+      "head": "mHSPC一线治疗",
+      "relation": "CSCO 2024推荐",
+      "tail": "ADT+阿比特龙或ADT+恩扎卢胺（I级推荐）或ADT+阿帕他胺/达罗他胺",
+      "source": "CSCO前列腺癌诊疗指南2024",
+      "evidence": "新型内分泌联合ADT是mHSPC标准治疗",
+      "domain": "治疗指南",
+      "confidence": 0.95
+    },
+    {
+      "head": "mHSPC ADT+多西他赛",
+      "relation": "适应证",
+      "tail": "高瘤负荷mHSPC（≥4个骨转移或内脏转移）",
+      "source": "CSCO指南2024 / CHAARTED研究",
+      "evidence": "高瘤负荷患者可从ADT+多西他赛获益",
+      "domain": "治疗指南",
+      "confidence": 0.92
+    },
+    {
+      "head": "nmCRPC治疗",
+      "relation": "CSCO 2024推荐",
+      "tail": "阿帕他胺、达罗他胺、恩扎卢胺均为I级推荐",
+      "source": "CSCO前列腺癌诊疗指南2024",
+      "evidence": "nmCRPC应尽早启动新型内分泌治疗",
+      "domain": "治疗指南",
+      "confidence": 0.95
+    },
+    {
+      "head": "低危前列腺癌",
+      "relation": "CSCO 2024推荐治疗",
+      "tail": "主动监测、根治性手术、根治性放疗",
+      "source": "CSCO前列腺癌诊疗指南2024",
+      "evidence": "低危患者可选择主动监测避免过度治疗",
+      "domain": "治疗指南",
+      "confidence": 0.95
+    },
+    {
+      "head": "中危前列腺癌",
+      "relation": "CSCO 2024推荐治疗",
+      "tail": "根治性手术、根治性放疗+ADT（部分患者）",
+      "source": "CSCO前列腺癌诊疗指南2024",
+      "evidence": "中危患者需综合评估选择治疗",
+      "domain": "治疗指南",
+      "confidence": 0.95
+    },
+    {
+      "head": "高危局限性前列腺癌",
+      "relation": "CSCO 2024推荐治疗",
+      "tail": "根治性手术±术后辅助治疗，或根治性放疗+ADT",
+      "source": "CSCO前列腺癌诊疗指南2024",
+      "evidence": "高危患者需综合治疗",
+      "domain": "治疗指南",
+      "confidence": 0.95
+    },
+    {
+      "head": "局部晚期前列腺癌",
+      "relation": "CSCO 2024推荐治疗",
+      "tail": "根治性放疗+长期ADT（2-3年）",
+      "source": "CSCO前列腺癌诊疗指南2024",
+      "evidence": "局部晚期放疗联合长期ADT是标准",
+      "domain": "治疗指南",
+      "confidence": 0.95
+    },
+    {
+      "head": "CRPC定义",
+      "relation": "标准",
+      "tail": "血清睾酮<50ng/dL且符合以下任一：PSA进展（间隔1周以上连续3次升高）或影像学进展",
+      "source": "CSCO前列腺癌诊疗指南2024",
+      "evidence": "CRPC是疾病进展阶段",
+      "domain": "前列腺癌治疗方案",
+      "confidence": 0.98
+    },
+    {
+      "head": "PSA进展",
+      "relation": "定义",
+      "tail": "PSA值较最低点升高≥25%且绝对值≥2ng/ml",
+      "source": "CSCO指南2024 / PCWG3标准",
+      "evidence": "PSA进展是CRPC诊断标准之一",
+      "domain": "前列腺癌治疗方案",
+      "confidence": 0.95
+    },
+    {
+      "head": "AR-V7",
+      "relation": "临床意义",
+      "tail": "AR剪接变异体7，AR-V7阳性提示对阿比特龙和恩扎卢胺耐药",
+      "source": "CSCO指南2024 / 临床研究",
+      "evidence": "AR-V7可指导mCRPC治疗选择",
+      "domain": "前列腺癌生物标志物与分期评估",
+      "confidence": 0.92
+    },
+    {
+      "head": "恩扎卢胺",
+      "relation": "AR-V7阳性患者",
+      "tail": "AR-V7阳性患者对恩扎卢胺反应差，应考虑化疗或PARP抑制剂",
+      "source": "CSCO指南2024 / 临床研究",
+      "evidence": "分子标志物指导治疗决策",
+      "domain": "内分泌治疗",
+      "confidence": 0.88
+    },
+    {
+      "head": "双侧睾丸切除术",
+      "relation": "地位",
+      "tail": "手术去势，是ADT的重要组成部分",
+      "source": "CSCO前列腺癌诊疗指南2024",
+      "evidence": "手术去势与药物去势疗效相当",
+      "domain": "前列腺癌治疗方案",
+      "confidence": 0.92
+    },
+    {
+      "head": "促性腺激素释放激素激动剂(GnRHa)",
+      "relation": "代表药物",
+      "tail": "亮丙瑞林、戈舍瑞林、曲普瑞林",
+      "source": "CSCO指南2024 / 药物说明书",
+      "evidence": "GnRHa是药物去势的主要方式",
+      "domain": "前列腺癌治疗方案",
+      "confidence": 0.95
+    },
+    {
+      "head": "ADT",
+      "relation": "定义",
+      "tail": "雄激素剥夺治疗，包括手术去势和药物去势",
+      "source": "CSCO前列腺癌诊疗指南2024",
+      "evidence": "ADT是前列腺癌内分泌治疗基础",
+      "domain": "前列腺癌治疗方案",
+      "confidence": 0.98
+    },
+    {
+      "head": "CAB(联合雄激素阻断)",
+      "relation": "方案",
+      "tail": "GnRHa+抗雄药物（比卡鲁胺/氟他胺）",
+      "source": "CSCO指南2024",
+      "evidence": "CAB较单纯去势可能更有效",
+      "domain": "前列腺癌治疗方案",
+      "confidence": 0.88
+    },
+    {
+      "head": "比卡鲁胺",
+      "relation": "用法用量",
+      "tail": "50mg口服每日一次（联合去势治疗时）",
+      "source": "药物说明书",
+      "evidence": "比卡鲁胺是常用抗雄药物",
+      "domain": "前列腺癌治疗方案",
+      "confidence": 0.92
+    },
+    {
+      "head": "间歇性ADT",
+      "relation": "适用人群",
+      "tail": "适用于有治疗反应、生活质量要求高的mHSPC患者",
+      "source": "CSCO指南2024",
+      "evidence": "间歇治疗可改善生活质量",
+      "domain": "前列腺癌治疗方案",
+      "confidence": 0.85
+    },
+    {
+      "head": "持续性ADT",
+      "relation": "适用人群",
+      "tail": "适用于有症状、肿瘤负荷高、疾病快速进展的患者",
+      "source": "CSCO指南2024",
+      "evidence": "持续治疗对高危患者更合适",
+      "domain": "前列腺癌治疗方案",
+      "confidence": 0.88
+    },
+    {
+      "head": "新型内分泌治疗药物不良反应",
+      "relation": "常见",
+      "tail": "疲劳、关节痛、皮疹、高血压、骨折风险增加",
+      "source": "药物说明书 / 临床研究",
+      "evidence": "需监测和处理药物相关毒性",
+      "domain": "前列腺癌治疗方案",
+      "confidence": 0.95
+    },
+    {
+      "head": "多西他赛化疗不良反应",
+      "relation": "常见",
+      "tail": "骨髓抑制、神经毒性、液体潴留、指甲改变",
+      "source": "药物说明书",
+      "evidence": "化疗需积极支持治疗",
+      "domain": "化学治疗",
+      "confidence": 0.95
+    },
+    {
+      "head": "卡巴他赛",
+      "relation": "适应证",
+      "tail": "多西他赛化疗后进展的mCRPC",
+      "source": "CSCO前列腺癌诊疗指南2024",
+      "evidence": "卡巴他赛对多西他赛耐药患者有效",
+      "domain": "化学治疗",
+      "confidence": 0.9
+    },
+    {
+      "head": "米托蒽醌",
+      "relation": "适应证",
+      "tail": "症状性mCRPC姑息治疗（不改善OS）",
+      "source": "CSCO指南2024",
+      "evidence": "米托蒽醌可改善症状",
+      "domain": "化学治疗",
+      "confidence": 0.85
+    },
+    {
+      "head": "镭-223",
+      "relation": "适应证",
+      "tail": "有症状的骨转移mCRPC，不伴内脏转移",
+      "source": "CSCO指南2024 / ALSYMPCA研究",
+      "evidence": "镭-223改善骨相关事件和OS",
+      "domain": "放射治疗",
+      "confidence": 0.92
+    },
+    {
+      "head": "镭-223",
+      "relation": "用法用量",
+      "tail": "55kBq/kg静脉注射，每4周一次，共6次",
+      "source": "药物说明书",
+      "evidence": "镭-223是α粒子靶向治疗",
+      "domain": "放射治疗",
+      "confidence": 0.92
+    },
+    {
+      "head": "恩扎卢胺",
+      "relation": "mHSPC适应证",
+      "tail": "ARCHES研究显示恩扎卢胺+ADT显著改善mHSPC患者OS",
+      "source": "ARCHES研究",
+      "evidence": "恩扎卢胺mHSPC适应证获批",
+      "domain": "内分泌治疗",
+      "confidence": 0.95
+    },
+    {
+      "head": "阿帕他胺",
+      "relation": "mHSPC适应证",
+      "tail": "TITAN研究显示阿帕他胺+ADT显著改善mHSPC OS和影像学PFS",
+      "source": "TITAN研究",
+      "evidence": "阿帕他胺mHSPC适应证获批",
+      "domain": "内分泌治疗",
+      "confidence": 0.95
+    },
+    {
+      "head": "达罗他胺",
+      "relation": "mHSPC适应证",
+      "tail": "ARASENS研究显示达罗他胺+ADT+多西他赛改善mHSPC OS",
+      "source": "ARASENS研究",
+      "evidence": "达罗他胺mHSPC适应证获批",
+      "domain": "内分泌治疗",
+      "confidence": 0.95
+    },
+    {
+      "head": "阿比特龙",
+      "relation": "mHSPC适应证",
+      "tail": "LATITUDE研究显示阿比特龙+ADT显著改善高危mHSPC OS",
+      "source": "LATITUDE研究",
+      "evidence": "阿比特龙mHSPC适应证获批",
+      "domain": "内分泌治疗",
+      "confidence": 0.95
+    },
+    {
+      "head": "转移性前列腺癌高瘤负荷定义",
+      "relation": "标准",
+      "tail": "≥4个骨转移灶（≥1个位于脊柱或骨盆外）或内脏转移",
+      "source": "CSCO指南2024 / CHAARTED研究",
+      "evidence": "高瘤负荷影响治疗选择",
+      "domain": "前列腺癌治疗方案",
+      "confidence": 0.95
+    },
+    {
+      "head": "转移性前列腺癌低瘤负荷定义",
+      "relation": "标准",
+      "tail": "<4个骨转移灶且全部位于脊柱和骨盆内，无内脏转移",
+      "source": "CSCO指南2024 / CHAARTED研究",
+      "evidence": "低瘤负荷患者可能从局部治疗获益",
+      "domain": "前列腺癌治疗方案",
+      "confidence": 0.95
+    },
+    {
+      "head": "NCCN 2025极低危前列腺癌",
+      "relation": "定义",
+      "tail": "T1c期、Gleason≤6/Grade Group 1、PSA<10ng/ml、阳性针数<3、每针癌占比<50%、PSA密度<0.15",
+      "source": "NCCN前列腺癌指南2025",
+      "evidence": "NCCN 2025.V1新增极低危定义",
+      "domain": "治疗指南",
+      "confidence": 0.95
+    },
+    {
+      "head": "极低危前列腺癌",
+      "relation": "NCCN 2025推荐",
+      "tail": "强烈推荐主动监测",
+      "source": "NCCN前列腺癌指南2025.V1",
+      "evidence": "极低危患者主动监测可避免过度治疗",
+      "domain": "治疗指南",
+      "confidence": 0.95
+    },
+    {
+      "head": "mCRPC治疗前检测",
+      "relation": "推荐",
+      "tail": "建议检测BRCA1/2、ATM、PALB2等HRR基因突变和AR-V7",
+      "source": "CSCO指南2024 / NCCN指南2025",
+      "evidence": "分子标志物指导精准治疗",
+      "domain": "前列腺癌生物标志物与分期评估",
+      "confidence": 0.92
+    },
+    {
+      "head": "恩扎卢胺",
+      "relation": "用法用量",
+      "tail": "160mg口服每日一次（mCRPC/nmCRPC）或160mg（mHSPC）",
+      "source": "药物说明书",
+      "evidence": "恩扎卢胺空腹或餐后服用均可",
+      "domain": "内分泌治疗",
+      "confidence": 0.95
+    },
+    {
+      "head": "阿帕他胺",
+      "relation": "用法用量",
+      "tail": "240mg口服每日一次（4片60mg片剂）",
+      "source": "药物说明书",
+      "evidence": "阿帕他胺每日一次240mg",
+      "domain": "内分泌治疗",
+      "confidence": 0.95
+    },
+    {
+      "head": "达罗他胺",
+      "relation": "用法用量",
+      "tail": "600mg口服每日两次（与食物同服）",
+      "source": "药物说明书",
+      "evidence": "达罗他胺分次服用",
+      "domain": "内分泌治疗",
+      "confidence": 0.95
+    },
+    {
+      "head": "mCRPC二线及后线治疗",
+      "relation": "选择",
+      "tail": "一线新型内分泌失败后可考虑PARP抑制剂（BRCA突变）、化疗、镭-223等",
+      "source": "CSCO前列腺癌诊疗指南2024",
+      "evidence": "mCRPC治疗需个体化选择",
+      "domain": "治疗指南",
+      "confidence": 0.92
+    },
+    {
+      "head": "阿比特龙",
+      "relation": "不良事件",
+      "tail": "高血压、低钾血症、肝功能异常、液体潴留、心脏毒性",
+      "source": "药物说明书",
+      "evidence": "阿比特龙需监测血压、电解质和肝功能",
+      "domain": "内分泌治疗",
+      "confidence": 0.95
+    },
+    {
+      "head": "恩扎卢胺",
+      "relation": "不良事件",
+      "tail": "疲劳、头晕、头痛、癫痫（罕见）、高血压",
+      "source": "药物说明书",
+      "evidence": "恩扎卢胺需注意神经系统症状",
+      "domain": "内分泌治疗",
+      "confidence": 0.92
+    }
+  ]
+}

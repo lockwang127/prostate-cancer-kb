@@ -1,0 +1,436 @@
+{
+  "triplets": [
+    {
+      "head": "NCCN前列腺癌指南2025.V1",
+      "relation": "发布时间",
+      "tail": "2024年12月",
+      "source": "NCCN Guidelines Version 1.2025",
+      "evidence": "NCCN.org发布",
+      "domain": "治疗指南",
+      "confidence": 0.95
+    },
+    {
+      "head": "NCCN 2025.V1",
+      "relation": "主要更新",
+      "tail": "新增极低危前列腺癌定义和主动监测推荐",
+      "source": "NCCN前列腺癌指南2025.V1",
+      "evidence": "强调主动监测在低危患者中的应用",
+      "domain": "治疗指南",
+      "confidence": 0.95
+    },
+    {
+      "head": "前列腺癌Gleason评分",
+      "relation": "定义",
+      "tail": "基于腺体结构模式评分（1-5分），总分=主要pattern+次要pattern",
+      "source": "ISUP 2014共识 / Gleason分级系统",
+      "evidence": "Gleason评分是最重要的前列腺癌预后因素",
+      "domain": "病理评估",
+      "confidence": 0.98
+    },
+    {
+      "head": "ISUP Grade Group",
+      "relation": "定义",
+      "tail": "Grade Group 1(≤6)、2(3+4=7)、3(4+3=7)、4(4+4=8)、5(9-10)",
+      "source": "ISUP 2014共识",
+      "evidence": "Grade Group简化Gleason评分，更易于临床应用",
+      "domain": "病理评估",
+      "confidence": 0.98
+    },
+    {
+      "head": "Grade Group 2 vs 3",
+      "relation": "预后差异",
+      "tail": "Grade Group 3(4+3=7)预后差于Grade Group 2(3+4=7)",
+      "source": "ISUP 2014 / 临床研究",
+      "evidence": "原发pattern更重要，ISUP分级纳入5级分组",
+      "domain": "病理评估",
+      "confidence": 0.92
+    },
+    {
+      "head": "前列腺癌危险分层",
+      "relation": "极低危",
+      "tail": "T1c、GG1、PSA<10、阳性针数<3、每针<50%、PSA密度<0.15",
+      "source": "NCCN前列腺癌指南2025",
+      "evidence": "极低危患者适合主动监测",
+      "domain": "危险分层",
+      "confidence": 0.95
+    },
+    {
+      "head": "前列腺癌危险分层",
+      "relation": "低危",
+      "tail": "T1-T2a、GG1、PSA<10",
+      "source": "NCCN前列腺癌指南2025 / CSCO指南2024",
+      "evidence": "低危患者可选择主动监测或根治性治疗",
+      "domain": "危险分层",
+      "confidence": 0.95
+    },
+    {
+      "head": "前列腺癌危险分层",
+      "relation": "中危",
+      "tail": "符合以下任一：T2b-T2c 或 GG2-3 或 PSA 10-20",
+      "source": "NCCN前列腺癌指南2025 / CSCO指南2024",
+      "evidence": "中危患者需综合治疗",
+      "domain": "危险分层",
+      "confidence": 0.95
+    },
+    {
+      "head": "前列腺癌危险分层",
+      "relation": "高危",
+      "tail": "T3a 或 GG4-5 或 PSA>20",
+      "source": "NCCN前列腺癌指南2025 / CSCO指南2024",
+      "evidence": "高危患者需要多学科综合治疗",
+      "domain": "危险分层",
+      "confidence": 0.95
+    },
+    {
+      "head": "前列腺癌危险分层",
+      "relation": "极高危",
+      "tail": "T3b-T4 或 主要pattern为5 或 超过4针GG4-5",
+      "source": "NCCN前列腺癌指南2025",
+      "evidence": "极高危患者需强化治疗",
+      "domain": "危险分层",
+      "confidence": 0.95
+    },
+    {
+      "head": "AJCC第8版TNM分期",
+      "relation": "前列腺癌应用",
+      "tail": "T1-T4分期，N0/N1，M0/M1",
+      "source": "AJCC Cancer Staging Manual第8版",
+      "evidence": "AJCC分期与NCCN危险分层互补",
+      "domain": "分期系统",
+      "confidence": 0.98
+    },
+    {
+      "head": "前列腺癌T分期",
+      "relation": "T1期定义",
+      "tail": "T1a≤5%切除组织、T1b>5%切除组织、T1c穿刺确诊",
+      "source": "AJCC第8版",
+      "evidence": "T1为临床不可触及肿瘤",
+      "domain": "分期系统",
+      "confidence": 0.95
+    },
+    {
+      "head": "前列腺癌T分期",
+      "relation": "T2期定义",
+      "tail": "T2a≤50%单叶、T2b>50%单叶、T2c双叶受累",
+      "source": "AJCC第8版",
+      "evidence": "T2为肿瘤局限于前列腺内",
+      "domain": "分期系统",
+      "confidence": 0.95
+    },
+    {
+      "head": "前列腺癌T分期",
+      "relation": "T3期定义",
+      "tail": "T3a包膜外侵犯、T3b精囊侵犯",
+      "source": "AJCC第8版",
+      "evidence": "T3为局部晚期",
+      "domain": "分期系统",
+      "confidence": 0.95
+    },
+    {
+      "head": "前列腺癌T分期",
+      "relation": "T4期定义",
+      "tail": "肿瘤固定或侵犯邻近结构（膀胱颈、直肠、肛提肌等）",
+      "source": "AJCC第8版",
+      "evidence": "T4为肿瘤固定或侵犯邻近器官",
+      "domain": "分期系统",
+      "confidence": 0.95
+    },
+    {
+      "head": "前列腺穿刺活检",
+      "relation": "指征",
+      "tail": "PSA>4ng/ml或PSA>3ng/ml伴其他危险因素或DRE异常",
+      "source": "NCCN前列腺癌指南2025",
+      "evidence": "多参数MRI靶向穿刺提高诊断准确性",
+      "domain": "筛查诊断",
+      "confidence": 0.95
+    },
+    {
+      "head": "多参数MRI(mpMRI)",
+      "relation": "应用",
+      "tail": "前列腺癌检测、分期、靶向穿刺引导",
+      "source": "NCCN前列腺癌指南2025",
+      "evidence": "PI-RADS评分指导临床决策",
+      "domain": "筛查诊断",
+      "confidence": 0.95
+    },
+    {
+      "head": "PI-RADS评分",
+      "relation": "定义",
+      "tail": "PI-RADS 1-5分，评估前列腺癌可能性",
+      "source": "PI-RADS v2.1系统",
+      "evidence": "PI-RADS≥3分建议穿刺活检",
+      "domain": "筛查诊断",
+      "confidence": 0.95
+    },
+    {
+      "head": "MRI引导靶向穿刺",
+      "relation": "优势",
+      "tail": "提高 clinically significant prostate cancer(CSPCa)检出率，减少过度诊断",
+      "source": "NCCN指南2025 / 临床研究",
+      "evidence": "MRI靶向穿刺是诊断趋势",
+      "domain": "筛查诊断",
+      "confidence": 0.92
+    },
+    {
+      "head": "经直肠超声(TRUS)",
+      "relation": "地位",
+      "tail": "引导系统性穿刺活检，是前列腺癌诊断基础手段",
+      "source": "NCCN前列腺癌指南2025",
+      "evidence": "系统性穿刺+靶向穿刺提高诊断准确性",
+      "domain": "筛查诊断",
+      "confidence": 0.95
+    },
+    {
+      "head": "PSA",
+      "relation": "临床应用",
+      "tail": "前列腺癌筛查、诊断、疗效监测、复发监测",
+      "source": "CSCO指南2024 / NCCN指南2025",
+      "evidence": "PSA是前列腺癌最重要的血清标志物",
+      "domain": "前列腺癌生物标志物与分期评估",
+      "confidence": 0.98
+    },
+    {
+      "head": "PSA密度",
+      "relation": "定义",
+      "tail": "血清PSA值/前列腺体积（ng/ml/cm³）",
+      "source": "CSCO指南2024",
+      "evidence": "PSA密度>0.15与CSPCa风险增加相关",
+      "domain": "前列腺癌生物标志物与分期评估",
+      "confidence": 0.92
+    },
+    {
+      "head": "PSA速率",
+      "relation": "定义",
+      "tail": "PSA每年变化值，>0.75ng/ml/年提示前列腺癌风险增加",
+      "source": "CSCO指南2024",
+      "evidence": "PSA速率是PSA补充指标",
+      "domain": "前列腺癌生物标志物与分期评估",
+      "confidence": 0.88
+    },
+    {
+      "head": "fPSA/tPSA比值",
+      "relation": "临床意义",
+      "tail": "fPSA/tPSA<0.15提示前列腺癌风险增加",
+      "source": "CSCO指南2024",
+      "evidence": "fPSA比值有助于区分BPH和前列腺癌",
+      "domain": "前列腺癌生物标志物与分期评估",
+      "confidence": 0.88
+    },
+    {
+      "head": "前列腺健康指数(PHI)",
+      "relation": "定义",
+      "tail": "（p2PSA/fPSA）×√PSA，辅助诊断CSPCa",
+      "source": "CSCO指南2024",
+      "evidence": "PHI比PSA更准确预测CSPCa",
+      "domain": "前列腺癌生物标志物与分期评估",
+      "confidence": 0.88
+    },
+    {
+      "head": "4Kscore",
+      "relation": "应用",
+      "tail": "结合4种激肽释放酶和临床信息预测CSPCa风险",
+      "source": "临床验证研究",
+      "evidence": "4Kscore可减少不必要穿刺",
+      "domain": "前列腺癌生物标志物与分期评估",
+      "confidence": 0.85
+    },
+    {
+      "head": "SelectMDx",
+      "relation": "应用",
+      "tail": "基于mRNA表达检测预测CSPCa风险",
+      "source": "临床验证研究",
+      "evidence": "SelectMDx可辅助决策是否穿刺",
+      "domain": "前列腺癌生物标志物与分期评估",
+      "confidence": 0.85
+    },
+    {
+      "head": "Decipher基因组分类器",
+      "relation": "应用",
+      "tail": "22基因表达谱预测前列腺癌复发和转移风险",
+      "source": "Decipher研究 / Nature Reviews Urology",
+      "evidence": "Decipher可指导术后辅助治疗决策",
+      "domain": "前列腺癌生物标志物与分期评估",
+      "confidence": 0.88
+    },
+    {
+      "head": "Decipher",
+      "relation": "临床应用",
+      "tail": "根治术后预测生化复发、远处转移，指导辅助放疗决策",
+      "source": "NCCN指南2025 / 临床研究",
+      "evidence": "Decipher是高危前列腺癌术后辅助决策工具",
+      "domain": "前列腺癌生物标志物与分期评估",
+      "confidence": 0.88
+    },
+    {
+      "head": "Prolaris(细胞周期进展评分)",
+      "relation": "应用",
+      "tail": "31个基因表达谱评估前列腺癌侵袭性",
+      "source": "Prolaris研究",
+      "evidence": "Prolaris可预测生化复发风险",
+      "domain": "前列腺癌生物标志物与分期评估",
+      "confidence": 0.85
+    },
+    {
+      "head": "Prolaris",
+      "relation": "临床价值",
+      "tail": "与临床参数联合提高预后预测准确性",
+      "source": "临床验证研究",
+      "evidence": "Prolaris是基因组分类器之一",
+      "domain": "前列腺癌生物标志物与分期评估",
+      "confidence": 0.85
+    },
+    {
+      "head": "骨扫描",
+      "relation": "指征",
+      "tail": "PSA>10ng/ml或高危前列腺癌或可疑骨痛",
+      "source": "NCCN前列腺癌指南2025",
+      "evidence": "骨扫描是前列腺癌骨转移首选检查",
+      "domain": "筛查诊断",
+      "confidence": 0.95
+    },
+    {
+      "head": "CT检查",
+      "relation": "指征",
+      "tail": "评估淋巴结和内脏转移，指导分期",
+      "source": "NCCN前列腺癌指南2025",
+      "evidence": "CT是前列腺癌分期重要手段",
+      "domain": "筛查诊断",
+      "confidence": 0.92
+    },
+    {
+      "head": "PSMA PET-CT",
+      "relation": "优势",
+      "tail": "检测前列腺癌转移敏感性显著优于传统影像",
+      "source": "NCCN前列腺癌指南2025 / FDA批准文献",
+      "evidence": "PSMA PET改变前列腺癌分期模式",
+      "domain": "筛查诊断",
+      "confidence": 0.95
+    },
+    {
+      "head": "68Ga-PSMA-11 PET",
+      "relation": "适应证",
+      "tail": "前列腺癌初始分期、生化复发定位",
+      "source": "FDA批准 / NCCN指南2025",
+      "evidence": "68Ga-PSMA-11是PSMA PET示踪剂",
+      "domain": "筛查诊断",
+      "confidence": 0.95
+    },
+    {
+      "head": "18F-DCFPyL(Pylarify) PET",
+      "relation": "适应证",
+      "tail": "前列腺癌初始分期、生化复发定位",
+      "source": "FDA批准 / NCCN指南2025",
+      "evidence": "18F-DCFPyL是PSMA PET示踪剂",
+      "domain": "筛查诊断",
+      "confidence": 0.95
+    },
+    {
+      "head": "PSMA PET-CT",
+      "relation": "检测PSA阈值",
+      "tail": "PSA≥0.2ng/ml可检测到生化复发灶",
+      "source": "NCCN指南2025 / OSPREY研究",
+      "evidence": "PSMA PET在低PSA水平即可检出转移",
+      "domain": "筛查诊断",
+      "confidence": 0.92
+    },
+    {
+      "head": "主动监测",
+      "relation": "入选标准",
+      "tail": "极低危或低危、预期寿命>10年、充分知情同意",
+      "source": "NCCN前列腺癌指南2025",
+      "evidence": "主动监测避免过度治疗",
+      "domain": "治疗指南",
+      "confidence": 0.95
+    },
+    {
+      "head": "主动监测",
+      "relation": "监测方案",
+      "tail": "定期PSA检测、重复穿刺、多参数MRI",
+      "source": "NCCN指南2025 / CSCO指南2024",
+      "evidence": "主动监测需密切随访",
+      "domain": "治疗指南",
+      "confidence": 0.92
+    },
+    {
+      "head": "根治性前列腺切除术",
+      "relation": "适应证",
+      "tail": "局限性前列腺癌、预期寿命>10年",
+      "source": "CSCO前列腺癌诊疗指南2024 / NCCN指南2025",
+      "evidence": "手术是局限性前列腺癌治愈性治疗",
+      "domain": "手术治疗",
+      "confidence": 0.95
+    },
+    {
+      "head": "机器人辅助腹腔镜前列腺切除术(RALP)",
+      "relation": "优势",
+      "tail": "失血少、恢复快、视野清晰、尿控恢复快",
+      "source": "CSCO指南2024 / 临床研究",
+      "evidence": "RALP已成为前列腺切除术主流术式",
+      "domain": "手术治疗",
+      "confidence": 0.92
+    },
+    {
+      "head": "根治性前列腺切除术切缘阳性",
+      "relation": "意义",
+      "tail": "提示肿瘤残留，术后可能需要辅助治疗",
+      "source": "CSCO指南2024",
+      "evidence": "切缘阳性是术后复发危险因素",
+      "domain": "手术治疗",
+      "confidence": 0.92
+    },
+    {
+      "head": "盆腔淋巴结清扫术(PLND)",
+      "relation": "指征",
+      "tail": "中危（≥2%淋巴结转移风险）、高危前列腺癌",
+      "source": "NCCN前列腺癌指南2025",
+      "evidence": "PLND提供准确分期信息",
+      "domain": "手术治疗",
+      "confidence": 0.92
+    },
+    {
+      "head": "根治性放疗",
+      "relation": "技术",
+      "tail": "IMRT/VMAT为标准，SBRB适用于大分割",
+      "source": "NCCN前列腺癌指南2025",
+      "evidence": "精确放疗技术减少毒性",
+      "domain": "放射治疗",
+      "confidence": 0.95
+    },
+    {
+      "head": "近距离放疗",
+      "relation": "适应证",
+      "tail": "低危/中危前列腺癌、单纯近距离或联合外照射",
+      "source": "NCCN前列腺癌指南2025",
+      "evidence": "近距离放疗是根治性治疗选择",
+      "domain": "放射治疗",
+      "confidence": 0.92
+    },
+    {
+      "head": "前列腺癌大分割放疗",
+      "relation": "优势",
+      "tail": "疗程短、费用低、疗效不劣于常规分割",
+      "source": "NCCN指南2025 / HYPO-RT-PC研究",
+      "evidence": "大分割放疗已成为标准方案",
+      "domain": "放射治疗",
+      "confidence": 0.92
+    },
+    {
+      "head": "SBRT(立体定向体部放疗)",
+      "relation": "应用",
+      "tail": "寡转移前列腺癌局部治疗选择",
+      "source": "NCCN前列腺癌指南2025",
+      "evidence": "SBRT是寡转移灶根治性放疗",
+      "domain": "放射治疗",
+      "confidence": 0.9
+    },
+    {
+      "head": "挽救性放疗",
+      "relation": "指征",
+      "tail": "根治术后生化复发且无远处转移",
+      "source": "CSCO指南2024 / NCCN指南2025",
+      "evidence": "挽救性放疗是生化复发后治愈性尝试",
+      "domain": "放射治疗",
+      "confidence": 0.92
+    }
+  ]
+}
